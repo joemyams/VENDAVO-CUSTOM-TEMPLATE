@@ -1,0 +1,89 @@
+.post-body {
+  #ez-toc-container {
+    background: #ffffff;
+    padding: 1.5rem;
+    box-shadow: none;
+    border: 1px solid #f3f1ef;
+    border-radius: 10px;
+    width: 100%;
+    .ez-toc-toggle label {
+      border: 1px solid #f3f1ef;
+    }
+  }
+  .ez-toc-title-container {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.glossary-header {
+  .post__meta {
+    &:after {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      content: "";
+      display: inline-block;
+      background-color: #FFF;
+      height: 0.25rem;
+      width: 0.25rem;
+      opacity: .8;
+      border-radius: 50%;
+      vertical-align: 0.1875em;
+    }
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+.glossary-body {
+  .block--centered-text {
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .block--text-stat-v2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    .svg__shape {
+      display: none;
+    }
+    .cs-feature__body p {
+      font-size: 15px;
+    }
+    .card__text-statV2 {
+      .card-title {
+        font-size: 5rem;
+      }
+      .card-text {
+        font-size: 1.25rem;
+      }
+    }
+  }
+  .body__inner {
+    > h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+.glossary-body {
+  &.has__sidebar {
+    @include lg-up {
+      .post-author__box {
+        .post-author__inner {
+          max-width: 75%;
+          margin-left: auto;
+        }
+        > .cont {
+          padding-left: 3rem;
+        }
+      }
+    }
+  }
+}

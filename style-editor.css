@@ -1,0 +1,316 @@
+/* Block Editor
+      ***************************************************/
+.wp-block {
+  max-width: 1400px;
+  font-family: "Manrope", sans-serif;
+}
+.wp-block-column,
+.block-editor-block-list__layout.is-root-container > .wp-block {
+  border: 1px solid lightgrey;
+}
+.block-editor-block-list__layout.is-root-container {
+  padding: 0 4rem;
+}
+
+.wp-block.is-reusable {
+  border-style: dashed;
+}
+.wp-block.is-selected {
+  z-index: 10;
+}
+.block-editor-button-block-appender {
+  border: none !important;
+}
+.edit-post-visual-editor__post-title-wrapper {
+  padding: 0 4rem;
+}
+.editor-post-title {
+  margin-top: 60px;
+  margin: 60px auto 30px;
+}
+.editor-post-title__input {
+  padding-left: 40px;
+}
+.is-short iframe {
+  height: 120px !important;
+  min-height: 0 !important;
+}
+.is-medium iframe,
+.is-med iframe {
+  height: 170px !important;
+  min-height: 0 !important;
+}
+.mce-content-body.wp-editor {
+  padding: 1rem !important;
+}
+/* Tab Font Size
+      ***************************************************/
+.acf-tab-group li a {
+  font-size: 14px !important;
+}
+.mce-content-body.wp-editor p {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+.mce-content-body.wp-editor a {
+  text-decoration: underline;
+}
+.acf-fields.-left > .acf-field > .acf-label {
+  padding: 0;
+}
+
+.block-library-block__reusable-block-container
+  .components-disabled
+  .block-list-appender {
+  display: none;
+}
+.acf-block-body .deep-group {
+  padding: 0;
+}
+.acf-block-body .deep-group .acf-fields {
+  border: none;
+}
+.acf-block-body .deep-group .acf-fields > .acf-field {
+  padding: 1em;
+  border: none;
+}
+.acf-block-body .deep-group .acf-image-uploader .image-wrap img {
+  max-height: 100px !important;
+}
+
+.acf-range-wrap input[type="number"] {
+  width: 6em !important;
+}
+
+.acf-image-select label input {
+  display: none;
+}
+.acf-image-select .acf-radio-list {
+  display: flex;
+  margin-top: 0 !important;
+}
+.acf-image-select label p {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+}
+.acf-image-select li {
+  margin-right: 10px;
+}
+.acf-image-select label img {
+  border: solid 3px #ddd;
+  width: 220px;
+}
+.acf-image-select.is-sm label img {
+  width: 100px;
+}
+.acf-image-select.is-md label img {
+  width: 150px;
+}
+.acf-image-select label.selected img {
+  border: solid 3px #999;
+}
+.acf-image-select .acf-radio-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 16px;
+  margin-left: 0;
+}
+
+/* Helper Classes
+      ***************************************************/
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+/* Block Styles - Swatches Interface
+      ***************************************************/
+.acf-field select {
+  max-width: 100%;
+}
+.acf-swatch-select label input {
+  display: none;
+}
+
+.acf-swatch-select label {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 5px;
+  line-height: 1;
+  border-radius: 100%;
+  border: 1px solid transparent;
+}
+
+.acf-swatch-select label.selected {
+  background-color: #f1f1f1;
+  border: 1px solid #ccd0d4;
+}
+
+.acf-swatch-select .acf-radio-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+}
+.acf-swatch-select .acf-radio-list li {
+  margin-right: 1px;
+}
+.acf-swatch-select .editor-swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  vertical-align: middle;
+  border: solid 1px #fff;
+}
+.acf-swatch-select .editor-swatch.is-bg--white {
+  border-color: #ccd0d4;
+}
+
+.acf-swatch-select .editor-swatch-label {
+  display: inline-block;
+  vertical-align: middle;
+  display: none;
+}
+
+/* Hide X Overflow in Page Editor
+      ***************************************************/
+.block-editor__typewriter {
+  overflow-x: hidden !important;
+}
+.acf-block-body {
+  overflow: hidden;
+}
+
+.header__testimonial {
+  max-width: 580px;
+}
+.acf-fields.-left > .acf-field.hide-label > .acf-input {
+  padding: 0;
+}
+
+.hide-label thead {
+  display: none !important;
+}
+.hide-label .acf-table {
+  border: none;
+}
+.hide-label div.acf-field {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+.hide-label div.acf-field:first-child {
+  padding-top: 0;
+}
+.hide-label div.acf-fields {
+  border: none;
+  padding: 0 10px;
+}
+.hide-label .acf-input {
+  padding-left: 0;
+  padding-right: 0;
+}
+.hide-label td.acf-field {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Interface for Stats Block options
+***************************************************/
+div[data-name="block_stats"] > .acf-label {
+  display: none;
+}
+div[data-name="block_stats"] > .acf-input > .acf-table {
+  border: none;
+}
+div[data-name="block_stats"] th[data-name="content"],
+div[data-name="block_stats"] th[data-name="design"] {
+  padding: 5px 0 0 10px;
+}
+div[data-name="block_stats"] th[data-name="content"],
+div[data-name="block_stats"] th[data-name="design"],
+div[data-name="block_stats"] td[data-name="design"],
+div[data-name="block_stats"] td[data-name="content"] {
+  border: none !important;
+}
+
+div[data-name="block_stats"] div[data-name="headline"],
+div[data-name="block_stats"] div[data-name="subheadline"] {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+div[data-name="block_stats"] div[data-name="logo"] .acf-image-uploader {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+div[data-name="block_stats"]
+  div[data-name="logo"]
+  .acf-image-uploader
+  .image-wrap {
+  max-width: 90px !important;
+}
+div[data-name="block_stats"]
+  div[data-name="logo"]
+  .acf-image-uploader
+  .image-wrap
+  img {
+  object-fit: contain;
+}
+div[data-name="block_stats"]
+  div[data-name="logo"]
+  .image-wrap:hover
+  .acf-actions {
+  display: flex;
+  width: 160px;
+  left: 0;
+  justify-content: flex-end;
+  padding: 0;
+}
+div[data-name="block_stats"]
+  div[data-name="logo"]
+  .image-wrap:hover
+  .acf-actions
+  a {
+  margin-left: 5px;
+}
+
+p,
+ul {
+  font-size: 14px;
+}
+
+div[data-name="block_design"] .acf-button-group {
+  width: 100%;
+}
+div[data-name="block_design"] .acf-button-group > label {
+  font-size: 11px;
+  padding: 5px;
+}
+th[data-name="design"],
+div[data-name="block_gallery"] th[data-type="group"] {
+  width: 20% !important;
+}
+
+.acf-gallery-toolbar .acf-hl {
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Block Insterter - Align Center at bottom of Page Editor 
+***************************************************/
+.block-editor-button-block-appender.block-list-appender__toggle {
+  flex-direction: column;
+  margin: 0 auto;
+}

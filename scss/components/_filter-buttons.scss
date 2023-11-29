@@ -1,0 +1,50 @@
+.filter-buttons .alm-filter--inner {
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 700px;
+    margin: 2rem auto 0 auto !important;
+    ul {
+      display: none;
+    }
+
+  }
+.alm-filter--link.active.field-radio:after {
+    background: transparent;
+    opacity: 0;
+  }
+  .alm-filter--radio div.alm-filter--link {
+    display: inline-block;
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 0.55rem 1rem 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    margin: .25rem;
+    letter-spacing: 0.03rem;
+    line-height: 1;
+    transition: 300ms ease all;
+    &.active {
+      color: #fff;
+      background: var(--gradient-Blue);
+      border-color: transparent;
+
+
+    }
+    &:hover {
+      background: var(--gradient-Green);
+      color: #fff;
+      border-color: transparent;
+      transition: 300ms ease background;
+    }
+    &::before {
+      display: none !important;
+    }
+  }
+}

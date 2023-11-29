@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="986" height="1460" viewBox="0 0 986 1460">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2716" data-name="Rectangle 2716" width="986" height="1460" transform="translate(934 2407)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="case-study-shape" transform="translate(-934 -2407)" clip-path="url(#clip-path)">
+    <path id="SHAPE" d="M1274.379,0,1303.7,57.574c74.5,146.274,165.066,272.285,157.129,444.191-7.311,158.357-78.323,312.45-210.193,404.882-151.671,106.311-384.83,124.44-535.024,4.516-63.713-50.872-106-124.794-165.561-180.329-67.62-63.044-155.755-93.468-242.85-118.793-61.441-17.865-122.713-39.256-176.062-74.584C-62.556,409.19,2.134,191.291,50.883,4.5Z" transform="translate(1947.771 2412.701) rotate(91)" fill="#50a625"/>
+  </g>
+</svg>

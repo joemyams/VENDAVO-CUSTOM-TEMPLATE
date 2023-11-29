@@ -1,0 +1,241 @@
+.block--quote-slider-v2 {
+  .card-quote-v2 {
+    background: #FFF;
+    color: #133556;
+  }
+
+}
+
+.card-quote-v2 {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
+  .card-body, .card-footer {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .card-header {
+    position: relative;
+    padding-bottom: 125px;
+  }
+  .card-body {
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .card-footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 4rem;
+      width: calc(100% - 8rem);
+      height: 1px;
+      background: #78C34E;
+    }
+  }
+  .quote-card__name {
+    color: #76C546;
+  }
+  .quote-card__headshot {
+    position: absolute;
+    bottom: -40px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    left: 4rem;
+    background: var(--blue-30);
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 6px solid #FFF;
+    overflow: hidden;
+  }
+  .quote-card__headshot img {
+    border-radius: 0;
+  }
+  .quote-card__quote {
+    font-size: 1.5rem;
+  }
+  .quote-card__headshot {
+    opacity: 0;
+    transition: all .35s ease-in-out;
+  }
+  .quote-svg__image {
+    position: absolute;
+    width: 110px;
+    height: 84px;
+    background-size: contain !important;
+    top: 2rem;
+    left: 2rem;
+    transition: all .35s ease-in-out;
+    pointer-events: none;
+    user-select: none;
+  }
+  .quote-svg__bg {
+    opacity: 0;
+    transition: all .35s ease-in-out;
+    background-size: cover !important;
+    background-position: center center !important;
+    pointer-events: none;
+    user-select: none;
+  }
+}
+
+
+.js-quote__slider {
+  margin-left: -24px;
+  margin-right: -24px;
+  .item {
+    padding: 0 24px;
+  }
+  .slick-next, .slick-prev {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(90deg, #2EA0B7 0%, #2EA0B7 100%);
+    transition: all .35s ease-in-out;
+    z-index: 1000;
+    &:hover {
+      background: linear-gradient(270deg, #78C34E 0%, #2EA0B7 100%);
+    }
+    &.slick-disabled {
+      opacity: 0;
+    }
+  }
+  .slick-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .slick-next {
+    right: 0%;
+  }
+  .slick-prev {
+    left: 0%;
+  }
+  .slick-active {
+    .quote-svg__image {
+      opacity: 0;
+    }
+    .quote-svg__bg, .quote-card__headshot {
+      opacity: 1;
+    }
+    .card-quote-v2 {
+      .card-header {
+        background: var(--gray-10);
+      }
+    }
+  }
+}
+
+
+.careers___quote-slider {
+  .card-quote-v2 {
+    background:transparent;
+    .quote-card__headshot, .quote-svg__bg {
+      opacity: 1;
+    }
+    .quote-svg__image {
+      opacity: 0;
+    }
+    .quote-card__headshot {
+      top: -40px;
+      bottom: auto;
+    }
+    .card-body, .card-footer {
+      background: #FFF;
+    }
+    .card-header {
+      margin-top: 40px;
+    }
+    .quote-svg__bg {
+      background: url(../img/review-bg.png) no-repeat center !important;
+    }
+  }
+}
+
+
+@media (min-width: 992px) {
+  .js-quote__slider {
+    .slick-list {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .slick-next {
+      right: 15%;
+    }
+    .slick-prev {
+      left: 15%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .js-quote__slider {
+    .slick-list {
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+    .slick-next {
+      right: 25%;
+    }
+    .slick-prev {
+      left: 25%;
+    }
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .js-quote__slider {
+    .slick-list {
+      padding-left: 33%;
+      padding-right: 33%;
+    }
+    .slick-next {
+      right: 33%;
+    }
+    .slick-prev {
+      left: 33%;
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .js-quote__slider {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 567px) {
+  .card-quote-v2 {
+    .card-body, .card-footer {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+    .quote-card__headshot {
+      left: 3rem;
+    }
+    .card-footer {
+      &:before {
+        left: 3rem;
+        width: calc(100% - 6rem);
+      }
+      .quote-card__company {
+        margin-top: .25rem;
+      }
+    }
+  }
+}

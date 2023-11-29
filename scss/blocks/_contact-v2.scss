@@ -1,0 +1,51 @@
+.block--contact-v2 {
+  .contact-block {
+    color: var(--white);
+    &:nth-child(3n+1) {
+      background: var(--gradient-Blue);
+    }
+    &:nth-child(3n+2) {
+      background: var(--gradient-Purple);
+    }
+    &:nth-child(3n) {
+      background: var(--gradient-Green);
+    }
+  }
+}
+.block--contact-v2 .cont.is-sm {
+  max-width: 1100px;
+}
+
+.block--contact-v2 .mktoFormRow {
+  display: block;
+}
+.block--contact-v2 .mktoForm.mktoHasWidth,
+.block--contact-v2 .mktoForm select,
+.block--contact-v2 .mktoFormCol,
+.block--contact-v2 .mktoButtonRow,
+.block--contact-v2 .mktoButtonWrap,
+.block--contact-v2 .mktoButton,
+.block--contact-v2 .mktoFieldWrap,
+.mktoForm input[type="submit"],
+.mktoForm input[type="text"],
+.mktoForm input[type="url"],
+.mktoForm input[type="email"],
+.mktoForm input[type="tel"],
+.mktoForm input[type="number"],
+.mktoForm input[type="date"],
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField .block--contact-v2 .mktoForm textarea {
+  width: 100% !important;
+  max-width: 100%;
+}
+.block--contact-v2 .mktoButtonWrap {
+  width: 100%;
+}
+.block--contact-v2 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  left: 0 !important;
+  width: 100% !important;
+  text-transform: uppercase !important;
+  background: var(--gradient-Green) !important;
+  border-radius: var(--radius-MD) !important;
+  padding: 1rem !important;
+}

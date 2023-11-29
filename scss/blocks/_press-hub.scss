@@ -1,0 +1,42 @@
+.block__press-header {
+  .press-contact__title {
+    color: #4FA627;
+  }
+  .press-contact__headshot {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.text-with-underline {
+  box-shadow: inset 0 -0.075em #FFF, inset 0 -0.15em #4FA627;
+}
+
+.card-press {
+  .card__placeholder-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    &.alt-1 {
+      background: url(../img/bg-abstract-1.jpg) no-repeat center center;
+    }
+    &.alt-2 {
+      background: url(../img/bg-abstract-2.jpg) no-repeat center center;
+    }
+    &.alt-3 {
+      background: url(../img/bg-abstract-3.jpg) no-repeat center center;
+    }
+    &.alt-4 {
+      background: url(../img/bg-abstract-4.jpg) no-repeat center center;
+    }
+    &.alt-5 {
+      background: url(../img/bg-abstract-5.jpg) no-repeat center center;
+    }
+    &.alt-6 {
+      background: url(../img/bg-abstract-6.jpg) no-repeat center center;
+    }
+  }
+}

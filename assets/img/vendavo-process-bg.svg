@@ -1,0 +1,10 @@
+<svg id="vendavo-process-bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="295" viewBox="0 0 1920 295">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4151" data-name="Rectangle 4151" width="1920" height="295" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5287" data-name="Group 5287" clip-path="url(#clip-path)">
+    <path id="Path_18352" data-name="Path 18352" d="M1024.871,86.919C739.555-13.683,516.935-4.3,317.621,6.23,206.8,12.089,103.186,18.3,0,6.16V295H1920V279.608c-231.489,5.3-545.4-69.382-895.129-192.689" fill="#fff"/>
+  </g>
+</svg>

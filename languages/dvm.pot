@@ -1,0 +1,489 @@
+# Copyright (C) 2022 vendavo
+# This file is distributed under the same license as the vendavo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: vendavo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../404.php:6
+msgid "Error 404"
+msgstr ""
+
+#: ../404.php:7
+msgid "Page Not Found"
+msgstr ""
+
+#: ../404.php:8
+msgid "The page you are looking for has moved or no longer exists."
+msgstr ""
+
+#: ../404.php:9
+msgid "Back Home"
+msgstr ""
+
+#: ../event-page.php:3
+msgid "Events Page"
+msgstr ""
+
+#: ../event-page.php:27
+msgid "All"
+msgstr ""
+
+#: ../event-page.php:28, ../event-page.php:37
+msgid "Virtual"
+msgstr ""
+
+#: ../event-page.php:29, ../event-page.php:36
+msgid "In-Person"
+msgstr ""
+
+#: ../event-page.php:32
+msgid "Show Archived Events"
+msgstr ""
+
+#: ../event-page.php:84
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../event-page.php:77
+msgid "Register Now"
+msgstr ""
+
+#: ../footer.php:37
+msgid "All Rights Reserved"
+msgstr ""
+
+#: ../footer.php:49
+msgid "Customer Favorites"
+msgstr ""
+
+#: ../footer.php:69
+msgid "Featured Resources"
+msgstr ""
+
+#: ../header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: ../index.php:44
+msgid "Editor's Picks"
+msgstr ""
+
+#: ../landing-page.php:2
+msgid "Landing Page"
+msgstr ""
+
+#: ../landing-page.php:12
+msgid "The Future of the Aftermarket Organization"
+msgstr ""
+
+#: ../landing-page.php:13
+msgid "And Why You Have to Invest in it"
+msgstr ""
+
+#: ../landing-page.php:43
+msgid "Historically, the aftermarket service business in industrial companies has followed a development path that starts with “service as a necessity”, i.e. to support warranty or break-fix, but not considered as a revenue and profit-generating business worthy of focus."
+msgstr ""
+
+#: ../landing-page.php:44
+msgid "Companies need to continuously invest in the aftermarket service business to ensure a more stable and recurring stream of profit. Dedicated investment in the aftermarket service business is needed to give it a chance to grow, rather than considering it an afterthought."
+msgstr ""
+
+#: ../landing-page.php:50
+msgid "First and Last Name"
+msgstr ""
+
+#: ../landing-page.php:51
+msgid "Professional Title, Company Name"
+msgstr ""
+
+#: ../landing-page.php:55
+msgid "Cillum molestiae ut venenatis ratione corrupti commodi! Aspernatur, fermentum, quasi."
+msgstr ""
+
+#: ../landing-page.php:56
+msgid "Assumenda vivamus? Ultricies feugiat facilisi consectetuer doloremque voluptatem! Risus nascetur."
+msgstr ""
+
+#: ../landing-page.php:86
+msgid "Questions?"
+msgstr ""
+
+#: ../landing-page.php:87
+msgid "Speak with one of Vendavo’s friendly Solution Development Representatives"
+msgstr ""
+
+#: ../search.php:3
+msgid "Search Page"
+msgstr ""
+
+#: ../single-quiz_pdf.php:33
+msgid "We're Pulling Up Your Report"
+msgstr ""
+
+#: ../single-quiz_pdf.php:34
+msgid "This may take a few seconds."
+msgstr ""
+
+#: ../template-parts/blocks/block-challenges-and-outcomes.php:11, ../template-parts/blocks/block-tabbed-content.php:9
+msgid "Industry Challenges & Vendavo Outcomes"
+msgstr ""
+
+#: ../template-parts/blocks/block-comex-survey.php:17
+msgid "COMMERCIAL EXCELLENCE MATURITY ASSESSMENT"
+msgstr ""
+
+#: ../template-parts/blocks/block-comex-survey.php:18
+msgid "Here’s where you stand overall:"
+msgstr ""
+
+#: ../template-parts/blocks/block-comex-survey.php:23
+msgid "Unstructured"
+msgstr ""
+
+#: ../template-parts/blocks/block-comex-survey.php:28
+msgid "Disciplined"
+msgstr ""
+
+#: ../template-parts/blocks/block-comex-survey.php:33
+msgid "Adaptive"
+msgstr ""
+
+#: ../template-parts/blocks/block-comex-survey.php:38
+msgid "Optimized"
+msgstr ""
+
+#: ../template-parts/blocks/block-contact-form.php:22
+msgid "Global HQ"
+msgstr ""
+
+#: ../template-parts/blocks/block-contact-form.php:23, ../template-parts/blocks/block-contact-form.php:28
+msgid "Email:"
+msgstr ""
+
+#: ../template-parts/blocks/block-contact-form.php:24, ../template-parts/blocks/block-contact-form.php:29
+msgid "Phone:"
+msgstr ""
+
+#: ../template-parts/blocks/block-contact-form.php:27
+msgid "Support Hotline"
+msgstr ""
+
+#: ../template-parts/blocks/block-contact-form.php:29
+msgid "(Option 2 for Support)"
+msgstr ""
+
+#: ../template-parts/blocks/block-contact-form.php:32
+msgid "Press Inquiries"
+msgstr ""
+
+#: ../template-parts/blocks/block-contact-form.php:33
+msgid "For press and analyst inquiries, contact the marketing department at"
+msgstr ""
+
+#: ../template-parts/blocks/block-cpq-calc.php:26
+msgid "Total Annualized Expected Value of CPQ"
+msgstr ""
+
+#: ../template-parts/blocks/block-half-form.php:20
+msgid "Get Started"
+msgstr ""
+
+#: ../template-parts/blocks/block-press-center.php:18
+msgid "Editorial Contact:"
+msgstr ""
+
+#: ../template-parts/blocks/block-press-hub.php:213, ../template-parts/blocks/block-resource-hub.php:205
+msgid "No results found"
+msgstr ""
+
+#: ../template-parts/blocks/block-press-hub.php:206, ../template-parts/blocks/block-resource-hub.php:198
+msgid "Load More"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-capability-category-page.php:48
+msgid "Congratulations!"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-capability-category-page.php:48
+msgid "You are truly leading the pack. Most or all of these areas are well-practiced and familiar to everyone in your organization."
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cover-page.php:28
+msgid "Exclusively Prepared For:"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:16, ../template-parts/blocks/block-quiz-roi-results.php:17
+msgid "Total Benefit Range"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:27, ../template-parts/blocks/block-quiz-cpq-benefits-results.php:62, ../template-parts/blocks/block-quiz-roi-results.php:28, ../template-parts/blocks/block-quiz-roi-results.php:63
+msgid "Conservative"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:41, ../template-parts/blocks/block-quiz-cpq-benefits-results.php:63, ../template-parts/blocks/block-quiz-roi-results.php:43, ../template-parts/blocks/block-quiz-roi-results.php:64
+msgid "Expected"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:47
+msgid "Your Benefits"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:48
+msgid ""
+"We’re showing a range of benefits in the chart and table below: a conservative\n"
+"        estimate on the left\n"
+"        and the expected, typical improvement on the right. For ease of comparison, the table also expresses\n"
+"        the conservative and expected benefits as a percent of sales revenue. The bars and table highlight the\n"
+"        areas of business improvement, each category adding to the next, so your company can compare the\n"
+"        total conservative and expected benefits after integrating a CPQ solution."
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:57
+msgid "Your Benefit"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:60, ../template-parts/blocks/block-quiz-roi-results.php:61
+msgid "What is the expected annualized value across my business process areas?"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:64, ../template-parts/blocks/block-quiz-roi-results.php:65
+msgid "Range % of Sales"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:69, ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:23
+msgid "Sales Effectiveness, Quoting Capacity"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:81
+msgid "Go-to-Market Effectiveness"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:94, ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:25
+msgid "Pricing Discipline, Margin Management"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:108
+msgid "Back Office and Supply Chain Efficiency"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:24
+msgid "Go To Market Effectiveness"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:26
+msgid "Back Office & Supply Chain Efficiency"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:18
+msgid "Capability Category"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:20
+msgid "Your Scores"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:21
+msgid "B2B Average"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:25
+msgid "Commercial Excellence Maturity"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:70
+msgid "Your Expected Benefit from improved"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:71
+msgid "maturity"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:91
+msgid "Your Answer for"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:91
+msgid "Maturity Ranking"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:16
+msgid "Annual Sales Revenue"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:17
+msgid "Return on Sales"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:19
+msgid "Addressable Revenue"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:21, ../template-parts/blocks/block-quiz-roi-results-summary.php:28, ../template-parts/blocks/block-quiz-roi-results.php:70
+msgid "Analytics"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:22, ../template-parts/blocks/block-quiz-roi-results-summary.php:29, ../template-parts/blocks/block-quiz-roi-results.php:82
+msgid "Price Management"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:23, ../template-parts/blocks/block-quiz-roi-results-summary.php:30, ../template-parts/blocks/block-quiz-roi-results.php:95, ../template-parts/blocks/block-tabbed-content.php:40
+msgid "Price Optimization"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:24, ../template-parts/blocks/block-quiz-roi-results-summary.php:31, ../template-parts/blocks/block-quiz-roi-results.php:109
+msgid "Deal Management"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:26
+msgid "Your Ranking"
+msgstr ""
+
+#: ../template-parts/blocks/block-quiz-roi-results.php:50
+msgid ""
+"Here’s your range of benefits shown in a chart and table: a conservative\n"
+"        estimate on the left and an expected benefit on the right. The table also expresses the benefits as a percentage\n"
+"        of sales, for easy comparison across businesses with different revenue figures. The areas of business process\n"
+"        improvement are highlighted with each category adding to the next, so your company can compare the total\n"
+"        conservative and expected benefits you will achieve after integrating a Price Management solution."
+msgstr ""
+
+#: ../template-parts/blocks/block-quote-slider.php:8
+msgid "Real Vendavo Customer Testimonials"
+msgstr ""
+
+#: ../template-parts/blocks/block-resource-banner.php:23, ../template-parts/layouts/resource-default.php:17, ../template-parts/layouts/resource-default.php:15, ../template-parts/layouts/resource-default.php:37, ../template-parts/layouts/resource-default.php:35
+msgid "Download PDF"
+msgstr ""
+
+#: ../template-parts/blocks/block-roi-calc.php:27
+msgid "Total Expected Value of Vendavo Pricing Solutions"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:12
+msgid "Pricing"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:13
+msgid "Selling"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:14
+msgid "Leadership"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:19
+msgid "Pricing Challenges"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:22
+msgid "Lack of advanced commercial pricing models"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:23
+msgid "Limited spare parts profit optimization"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:24
+msgid "Lack of understanding of perceived customer segment value"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:25
+msgid "Limited measures for profitability visibility across the value chain"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:26
+msgid "Your commercial processes struggle with getting the optimized, winning price in front of the customer quickly"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:30, ../template-parts/blocks/block-tabbed-content.php:52, ../template-parts/cards/card-podcast-sm.php:9, ../template-parts/cards/card-podcast.php:9
+msgid "Learn More"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:36
+msgid "Pricing Outcomes"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:39
+msgid "Automated Intelligent Pricing"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:41
+msgid "Dynamic Pricing"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:42
+msgid "Centralized Price Management"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:43
+msgid "Market Data Management"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:44
+msgid "Transfer Price Management"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:45
+msgid "List Price Management"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:46
+msgid "Pricing Guidance"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:47
+msgid "Pricing Analytics"
+msgstr ""
+
+#: ../template-parts/blocks/block-tabbed-content.php:48
+msgid "Incentive Management"
+msgstr ""
+
+#: ../template-parts/cards/card-content-custom.php:14, ../template-parts/cards/card-content.php:34, ../template-parts/cards/card-press-featured.php:37, ../template-parts/cards/card-resource.php:25, ../template-parts/cards/card-resources-featured.php:43, ../template-parts/components/content-card.php:29, ../template-parts/layouts/single-default.php:186
+msgid "Read More"
+msgstr ""
+
+#: ../template-parts/cards/card-quote.php:22
+msgid "View Case Study"
+msgstr ""
+
+#: ../template-parts/components/social-share.php:2
+msgid "Share this article"
+msgstr ""
+
+#: ../template-parts/layouts/single-default.php:24, ../template-parts/layouts/single-podcast.php:22
+msgid "Read Time"
+msgstr ""
+
+#: ../template-parts/layouts/single-default.php:145, ../template-parts/layouts/single-podcast.php:70
+msgid "About The Author"
+msgstr ""
+
+#: ../template-parts/layouts/single-default.php:149, ../template-parts/layouts/single-podcast.php:74
+msgid "Website"
+msgstr ""
+
+#: ../template-parts/layouts/single-default.php:170
+msgid "Related articles:"
+msgstr ""
+
+#: ../template-parts/layouts/single-glossary.php:9
+msgid "Vendavo Glossary"
+msgstr ""
+
+#: ../utility-page.php:3
+msgid "Utility Page"
+msgstr ""

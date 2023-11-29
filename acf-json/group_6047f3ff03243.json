@@ -1,0 +1,527 @@
+{
+    "key": "group_6047f3ff03243",
+    "title": "Block - Quiz Maturity Average Graph",
+    "fields": [
+        {
+            "key": "field_6047f3ff0bc1f",
+            "label": "Text",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6047f3ff0bc2a",
+            "label": "",
+            "name": "block_header",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "hidden-th",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6047f3ff1483d",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_6047f3ff18cd8",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Headline",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6047f3ff18ce1",
+                            "label": "Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "is-text--navy-30",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_6047f3ff0bc33",
+            "label": "Graph",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6047f41f223a6",
+            "label": "",
+            "name": "block_graph",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_6047f453223a8",
+                    "label": "Customer",
+                    "name": "customer",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_6047f462223a9",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Customer",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6047f42f223a7",
+                            "label": "B2B Average",
+                            "name": "average",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "2.24",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6047f4b1a3f24",
+                    "label": "Product\/Service",
+                    "name": "product",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_6047f4b1a3f25",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Product \/ Service",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6047f4b1a3f26",
+                            "label": "B2B Average",
+                            "name": "average",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "2.18",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6047f4c99039a",
+                    "label": "Pricing",
+                    "name": "pricing",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_6047f4c99039b",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Pricing",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6047f4c99039c",
+                            "label": "B2B Average",
+                            "name": "average",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "2.15",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6047f4dc00d1e",
+                    "label": "Sales",
+                    "name": "sales",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_6047f4dc00d1f",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Sales \/ Channel",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6047f4dc00d20",
+                            "label": "B2B Average",
+                            "name": "average",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "2.05",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6047f4f3ccec4",
+                    "label": "Analytics",
+                    "name": "analytics",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_6047f4f3ccec5",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Analytics",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6047f4f3ccec6",
+                            "label": "B2B Average",
+                            "name": "average",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "1.90",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6047f50dccec7",
+                    "label": "Process Integration",
+                    "name": "process",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_6047f50dccec8",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Process Integration",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6047f50dccec9",
+                            "label": "B2B Average",
+                            "name": "average",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "1.63",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6047f5336ccbc",
+                    "label": "Disclaimer",
+                    "name": "disclaimer",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/quiz-maturity-average-graph-page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1615587195
+}

@@ -1,0 +1,240 @@
+.block--accordion-v2 {
+  position: relative;
+  &.has__bg-img {
+    > .cont {
+      padding-top: 60px;
+    }
+  }
+  .block-bg__imgV2 {
+    background-position: top center !important;
+  }
+  .btn-accordion {
+    background: transparent;
+    border: 0;
+    outline: none;
+    &:hover, &:focus {
+      outline: none;
+      border: 0;
+    }
+  }
+  &.is-text--white {
+    .half-text__headline {
+      .is-text--green-10 {
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.btn-accordion {
+  position: relative;
+  padding: 1rem 1rem 1rem 2.6rem;
+  text-align: left;
+  margin-bottom: 0;
+  white-space: initial;
+  .collapse-icon {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+    pointer-events: none;
+    /*
+    &:before {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 40px;
+      top: -10px;
+      left: -11px;
+      border-radius: 50%;
+      background: #76C546;
+      transition: all .35s ease-in-out;
+    }
+    */
+  }
+  &.collapsed {
+    .symbol-plus {
+      transform: rotate(180deg);
+      &:before{
+        width: 18px;
+        transform: rotate(90deg);
+      }
+    }
+    /*
+    .collapse-icon {
+      &:before {
+        background: #76C546;
+      }
+    }
+    */
+  }
+  &:hover {
+    //color: #000;
+    /*
+    .collapse-icon {
+      &:before {
+        background: #76C546;
+      }
+    }
+    */
+    .symbol-plus {
+      &:before, &:after {
+        border-bottom: solid 2px #76C546;
+      }
+    }
+  }
+  /*
+  &:focus {
+    color: #000;
+  }
+  */
+  .symbol-plus {
+    display: block;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+    width: 18px;
+    height: 18px;
+    transform: rotate(0deg);
+    position: relative;
+    &:before {
+      content: '';
+      display: block;
+      width: 0px;
+      height:0px;
+      border-bottom: solid 2px #76C546;
+      position: absolute;
+      bottom: 8px;
+      transform: rotate(90deg);
+      transition: all 0.3s;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 18px;
+      height:0px;
+      border-bottom: solid 2px #76C546;
+      position: absolute;
+      bottom: 8px;
+      transition: border 0.3s;
+    }
+  }
+}
+
+
+.accordion-v2 {
+  .btn-accordion {
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1.5rem 1.5rem 1.5rem 120px;
+    .collapse-icon {
+      left: 50px;
+    }
+    &:before {
+      content: "";
+      width: 1px;
+      position: absolute;
+      left: 90px;
+      height: 60%;
+      top: 20%;
+      background: #CDCDCD;
+      pointer-events: none;
+    }
+    &:hover, &:focus {
+      outline: none;
+      border: 0;
+    }
+  }
+  .card-body {
+    padding: 40px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 40px;
+      width: calc(100% - 80px);
+      background: #CDCDCD;
+      height: 1px;
+    }
+  }
+  .card {
+    margin-bottom: 1rem;
+    border-radius: 35px;
+    box-shadow: inset 0px 3px 6px #00000029;
+    &:nth-child(3n+1) {
+      background: rgba(36, 128, 136, 0.93);
+    }
+    &:nth-child(3n+2) {
+      background: rgba(2, 49, 86, 0.67);
+    }
+    &:nth-child(3n) {
+      background: rgba(255, 255, 255, 0.61);
+      .card__inner {
+        color: var(--blue-30);
+      }
+    }
+  }
+  
+  .acc-ctn__title, .acc-ctn__title > p {
+    font-size: 1.675rem;
+    font-weight: 600;
+    line-height: 1.325;
+  }
+  .acc-ctn__image {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .accordion-v2 {
+    .card__inner {
+      > .row {
+        margin-left: -50px;
+        margin-right: -50px;
+        > .col-lg-6 {
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+    }
+    .card__inner {
+      > .row > .col-lg-6:nth-child(1) {
+        border-right: 1px solid #CDCDCD;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 567px) {
+  .accordion-v2 {
+    .btn-accordion {
+      font-size: 1.75rem;
+      padding: 1.5rem 1.5rem 1.5rem 90px;
+      &:before {
+        left: 65px;
+      }
+      .collapse-icon {
+          left: 30px;
+      }
+    }
+    .card-body {
+      padding: 30px;
+      &:before {
+        left: 30px;
+        width: calc(100% - 60px)
+      }
+    }
+    .acc-ctn__title, .acc-ctn__title>p {
+      font-size: 1.5rem;
+    }
+  }
+}

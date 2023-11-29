@@ -1,0 +1,561 @@
+# Copyright (C) 2022 vendavo
+# This file is distributed under the same license as the vendavo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: vendavo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ../404.php:6
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: ../404.php:7
+msgid "Page Not Found"
+msgstr "Seite nicht gefunden"
+
+#: ../404.php:8
+msgid "The page you are looking for has moved or no longer exists."
+msgstr "Die von Ihnen gesuchte Seite ist umgezogen oder existiert nicht mehr."
+
+#: ../404.php:9
+msgid "Back Home"
+msgstr "Zurück zur Homepage"
+
+#: ../event-page.php:3
+msgid "Events Page"
+msgstr "Veranstaltungsseite"
+
+#: ../event-page.php:27
+msgid "All"
+msgstr "Alle"
+
+#: ../event-page.php:28, ../event-page.php:37
+msgid "Virtual"
+msgstr "Virtuell"
+
+#: ../event-page.php:29, ../event-page.php:36
+msgid "In-Person"
+msgstr "Persönlich"
+
+#: ../event-page.php:32
+msgid "Show Archived Events"
+msgstr "Archivierte Ereignisse anzeigen"
+
+#: ../event-page.php:84
+msgid "Sorry, no posts matched your criteria."
+msgstr "Verzeihung, keine Artikel passen auf deine Kriterien."
+
+#: ../event-page.php:77
+msgid "Register Now"
+msgstr "Jetzt registrieren"
+
+#: ../footer.php:37
+msgid "All Rights Reserved"
+msgstr "Alle Rechte vorbehalten"
+
+#: ../footer.php:49
+msgid "Customer Favorites"
+msgstr "Kundenfavoriten"
+
+#: ../footer.php:69
+msgid "Featured Resources"
+msgstr "Ausgewählte Ressourcen"
+
+#: ../header.php:34
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#: ../index.php:44
+msgid "Editor's Picks"
+msgstr "Redakteurfavoriten"
+
+#: ../landing-page.php:2
+msgid "Landing Page"
+msgstr "Zielseite"
+
+#: ../landing-page.php:12
+msgid "The Future of the Aftermarket Organization"
+msgstr "Die Zukunft der Aftermarket-Organisation"
+
+#: ../landing-page.php:13
+msgid "And Why You Have to Invest in it"
+msgstr "Und warum Sie darin investieren müssen"
+
+#: ../landing-page.php:43
+msgid ""
+"Historically, the aftermarket service business in industrial companies has "
+"followed a development path that starts with “service as a necessity”, i.e. "
+"to support warranty or break-fix, but not considered as a revenue and profit-"
+"generating business worthy of focus."
+msgstr ""
+"Historisch gesehen hat das Aftermarket-Servicegeschäft in "
+"Industrieunternehmen einen Entwicklungspfad verfolgt, der mit „Service als "
+"Notwendigkeit“ beginnt, um Garantie oder Reparatur zu unterstützen, aber "
+"nicht als ein Umsatz- und Gewinn generierendes Geschäft betrachtet wird, das "
+"es verdient, sich zu konzentrieren."
+
+#: ../landing-page.php:44
+msgid ""
+"Companies need to continuously invest in the aftermarket service business to "
+"ensure a more stable and recurring stream of profit. Dedicated investment in "
+"the aftermarket service business is needed to give it a chance to grow, "
+"rather than considering it an afterthought."
+msgstr ""
+"Unternehmen müssen kontinuierlich in das Aftermarket-Servicegeschäft "
+"investieren, um einen stabileren und wiederkehrenden Gewinnstrom zu "
+"gewährleisten. Es sind gezielte Investitionen in das Aftermarket-"
+"Servicegeschäft erforderlich, um ihm eine Wachstumschance zu geben, anstatt "
+"es als nachträglichen Einfall zu betrachten."
+
+#: ../landing-page.php:50
+msgid "First and Last Name"
+msgstr "Vor-und Nachname"
+
+#: ../landing-page.php:51
+msgid "Professional Title, Company Name"
+msgstr "Berufsbezeichnung, Firmenname"
+
+#: ../landing-page.php:55
+msgid ""
+"Cillum molestiae ut venenatis ratione corrupti commodi! Aspernatur, "
+"fermentum, quasi."
+msgstr ""
+"Cillum molestiae ut venenatis ratione corrupti commodi! Aspernatur, "
+"fermentum, quasi."
+
+#: ../landing-page.php:56
+msgid ""
+"Assumenda vivamus? Ultricies feugiat facilisi consectetuer doloremque "
+"voluptatem! Risus nascetur."
+msgstr ""
+"Assumenda vivamus? Ultricies feugiat facilisi consectetuer doloremque "
+"voluptatem! Risus nascetur."
+
+#: ../landing-page.php:86
+msgid "Questions?"
+msgstr "Fragen?"
+
+#: ../landing-page.php:87
+msgid ""
+"Speak with one of Vendavo’s friendly Solution Development Representatives"
+msgstr ""
+"Sprechen Sie mit einem der freundlichen Vertreter von Vendavo für die "
+"Lösungsentwicklung"
+
+#: ../search.php:3
+msgid "Search Page"
+msgstr "Suchseite"
+
+#: ../single-quiz_pdf.php:33
+msgid "We're Pulling Up Your Report"
+msgstr "Wir rufen Ihren Bericht auf"
+
+#: ../single-quiz_pdf.php:34
+msgid "This may take a few seconds."
+msgstr "Dies kann einige Sekunden dauern."
+
+#: ../template-parts/blocks/block-challenges-and-outcomes.php:11,
+#: ../template-parts/blocks/block-tabbed-content.php:9
+msgid "Industry Challenges & Vendavo Outcomes"
+msgstr "Branchenherausforderungen und Vendavo-Ergebnisse"
+
+#: ../template-parts/blocks/block-comex-survey.php:17
+msgid "COMMERCIAL EXCELLENCE MATURITY ASSESSMENT"
+msgstr "BEWERTUNG DER KOMMERZIELLEN EXZELLENZ"
+
+#: ../template-parts/blocks/block-comex-survey.php:18
+msgid "Here’s where you stand overall:"
+msgstr "Hier stehen Sie insgesamt:"
+
+#: ../template-parts/blocks/block-comex-survey.php:23
+msgid "Unstructured"
+msgstr "Unstrukturiert"
+
+#: ../template-parts/blocks/block-comex-survey.php:28
+msgid "Disciplined"
+msgstr "Diszipliniert"
+
+#: ../template-parts/blocks/block-comex-survey.php:33
+msgid "Adaptive"
+msgstr "Adaptiv"
+
+#: ../template-parts/blocks/block-comex-survey.php:38
+msgid "Optimized"
+msgstr "Optimiert"
+
+#: ../template-parts/blocks/block-contact-form.php:22
+msgid "Global HQ"
+msgstr "Globales Hauptquartier"
+
+#: ../template-parts/blocks/block-contact-form.php:23,
+#: ../template-parts/blocks/block-contact-form.php:28
+msgid "Email:"
+msgstr "Email:"
+
+#: ../template-parts/blocks/block-contact-form.php:24,
+#: ../template-parts/blocks/block-contact-form.php:29
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: ../template-parts/blocks/block-contact-form.php:27
+msgid "Support Hotline"
+msgstr "Support-Hotline"
+
+#: ../template-parts/blocks/block-contact-form.php:29
+msgid "(Option 2 for Support)"
+msgstr "(Option 2 für Support)"
+
+#: ../template-parts/blocks/block-contact-form.php:32
+msgid "Press Inquiries"
+msgstr "Presseanfragen"
+
+#: ../template-parts/blocks/block-contact-form.php:33
+msgid "For press and analyst inquiries, contact the marketing department at"
+msgstr ""
+"Für Presse- und Analystenanfragen wenden Sie sich bitte an die "
+"Marketingabteilung unter"
+
+#: ../template-parts/blocks/block-cpq-calc.php:26
+msgid "Total Annualized Expected Value of CPQ"
+msgstr "Gesamter annualisierter Erwartungswert des CPQ"
+
+#: ../template-parts/blocks/block-half-form.php:20
+msgid "Get Started"
+msgstr "Sich aufmachen"
+
+#: ../template-parts/blocks/block-press-center.php:18
+msgid "Editorial Contact:"
+msgstr "Redaktioneller Kontakt:"
+
+#: ../template-parts/blocks/block-press-hub.php:213,
+#: ../template-parts/blocks/block-resource-hub.php:205
+msgid "No results found"
+msgstr "Es wurden keine Ergebnisse gefunden"
+
+#: ../template-parts/blocks/block-press-hub.php:206,
+#: ../template-parts/blocks/block-resource-hub.php:198
+msgid "Load More"
+msgstr "Mehr laden"
+
+#: ../template-parts/blocks/block-quiz-capability-category-page.php:48
+msgid "Congratulations!"
+msgstr "Glückwünsche!"
+
+#: ../template-parts/blocks/block-quiz-capability-category-page.php:48
+msgid ""
+"You are truly leading the pack. Most or all of these areas are well-"
+"practiced and familiar to everyone in your organization."
+msgstr ""
+"Du führst wirklich das Rudel an. Die meisten oder alle dieser Bereiche sind "
+"gut geübt und jedem in Ihrer Organisation vertraut."
+
+#: ../template-parts/blocks/block-quiz-cover-page.php:28
+msgid "Exclusively Prepared For:"
+msgstr "Exklusiv vorbereitet für:"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:16,
+#: ../template-parts/blocks/block-quiz-roi-results.php:17
+msgid "Total Benefit Range"
+msgstr "Gesamter Vorteilsbereich"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:27,
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:62,
+#: ../template-parts/blocks/block-quiz-roi-results.php:28,
+#: ../template-parts/blocks/block-quiz-roi-results.php:63
+msgid "Conservative"
+msgstr "Konservativ"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:41,
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:63,
+#: ../template-parts/blocks/block-quiz-roi-results.php:43,
+#: ../template-parts/blocks/block-quiz-roi-results.php:64
+msgid "Expected"
+msgstr "Erwartet"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:47
+msgid "Your Benefits"
+msgstr "Deine Vorteile"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:57
+msgid "Your Benefit"
+msgstr "Ihr Nutzen"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:60,
+#: ../template-parts/blocks/block-quiz-roi-results.php:61
+msgid "What is the expected annualized value across my business process areas?"
+msgstr ""
+"Was ist der erwartete annualisierte Wert in meinen Geschäftsprozessbereichen?"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:64,
+#: ../template-parts/blocks/block-quiz-roi-results.php:65
+msgid "Range % of Sales"
+msgstr "Bereich % des Umsatzes"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:69,
+#: ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:23
+msgid "Sales Effectiveness, Quoting Capacity"
+msgstr "Verkaufseffektivität, Angebotskapazität"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:81
+msgid "Go-to-Market Effectiveness"
+msgstr "Go-to-Market-Effektivität"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:94,
+#: ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:25
+msgid "Pricing Discipline, Margin Management"
+msgstr "Preisdisziplin, Margenmanagement"
+
+#: ../template-parts/blocks/block-quiz-cpq-benefits-results.php:108
+msgid "Back Office and Supply Chain Efficiency"
+msgstr "Effizienz im Backoffice und in der Lieferkette"
+
+#: ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:24
+msgid "Go To Market Effectiveness"
+msgstr "Gehen Sie zur Marktwirksamkeit"
+
+#: ../template-parts/blocks/block-quiz-cpq-category-breakdown.php:26
+msgid "Back Office & Supply Chain Efficiency"
+msgstr "Effizienz im Backoffice und in der Lieferkette"
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:18
+msgid "Capability Category"
+msgstr "Fähigkeitskategorie"
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:20
+msgid "Your Scores"
+msgstr "Ihre Ergebnisse"
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:21
+msgid "B2B Average"
+msgstr "B2B-Durchschnitt"
+
+#: ../template-parts/blocks/block-quiz-maturity-average-graph-page.php:25
+msgid "Commercial Excellence Maturity"
+msgstr "Kommerzielle Exzellenz-Reife"
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:70
+msgid "Your Expected Benefit from improved"
+msgstr "Ihr erwarteter Nutzen verbessert sich"
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:71
+msgid "maturity"
+msgstr "die Reife"
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:91
+msgid "Your Answer for"
+msgstr "Ihre Antwort für"
+
+#: ../template-parts/blocks/block-quiz-roi-category-breakdown.php:91
+msgid "Maturity Ranking"
+msgstr "Reifegrad-Ranking"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:16
+msgid "Annual Sales Revenue"
+msgstr "Jahresumsatz"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:17
+msgid "Return on Sales"
+msgstr "Umsatzrendite"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:19
+msgid "Addressable Revenue"
+msgstr "Adressierbarer Umsatz"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:21,
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:28,
+#: ../template-parts/blocks/block-quiz-roi-results.php:70
+msgid "Analytics"
+msgstr "Analytik"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:22,
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:29,
+#: ../template-parts/blocks/block-quiz-roi-results.php:82
+msgid "Price Management"
+msgstr "Preisverwaltung"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:23,
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:30,
+#: ../template-parts/blocks/block-quiz-roi-results.php:95,
+#: ../template-parts/blocks/block-tabbed-content.php:40
+msgid "Price Optimization"
+msgstr "Preisoptimierung"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:24,
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:31,
+#: ../template-parts/blocks/block-quiz-roi-results.php:109
+msgid "Deal Management"
+msgstr "Deal-Management"
+
+#: ../template-parts/blocks/block-quiz-roi-results-summary.php:26
+msgid "Your Ranking"
+msgstr "Ihr Ranking"
+
+#: ../template-parts/blocks/block-quote-slider.php:8
+msgid "Real Vendavo Customer Testimonials"
+msgstr "Echte Vendavo-Kundenreferenzen"
+
+#: ../template-parts/blocks/block-resource-banner.php:23,
+#: ../template-parts/layouts/resource-default.php:17,
+#: ../template-parts/layouts/resource-default.php:15,
+#: ../template-parts/layouts/resource-default.php:37,
+#: ../template-parts/layouts/resource-default.php:35
+msgid "Download PDF"
+msgstr "PDF Herunterladen"
+
+#: ../template-parts/blocks/block-roi-calc.php:27
+msgid "Total Expected Value of Vendavo Pricing Solutions"
+msgstr "Erwarteter Gesamtwert der Preislösungen von Vendavo"
+
+#: ../template-parts/blocks/block-tabbed-content.php:12
+msgid "Pricing"
+msgstr "Preisgestaltung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:13
+msgid "Selling"
+msgstr "Verkauf"
+
+#: ../template-parts/blocks/block-tabbed-content.php:14
+msgid "Leadership"
+msgstr "Führung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:19
+msgid "Pricing Challenges"
+msgstr "Herausforderungen bei der Preisgestaltung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:22
+msgid "Lack of advanced commercial pricing models"
+msgstr "Mangel an fortschrittlichen kommerziellen Preismodellen"
+
+#: ../template-parts/blocks/block-tabbed-content.php:23
+msgid "Limited spare parts profit optimization"
+msgstr "Begrenzte Optimierung des Ersatzteilgewinns"
+
+#: ../template-parts/blocks/block-tabbed-content.php:24
+msgid "Lack of understanding of perceived customer segment value"
+msgstr "Mangelndes Verständnis des wahrgenommenen Werts des Kundensegments"
+
+#: ../template-parts/blocks/block-tabbed-content.php:25
+msgid "Limited measures for profitability visibility across the value chain"
+msgstr ""
+"Begrenzte Maßnahmen zur Transparenz der Rentabilität in der gesamten "
+"Wertschöpfungskette"
+
+#: ../template-parts/blocks/block-tabbed-content.php:26
+msgid ""
+"Your commercial processes struggle with getting the optimized, winning price "
+"in front of the customer quickly"
+msgstr ""
+"Ihre Geschäftsprozesse kämpfen damit, dem Kunden schnell den optimierten, "
+"überzeugenden Preis zu präsentieren"
+
+#: ../template-parts/blocks/block-tabbed-content.php:30,
+#: ../template-parts/blocks/block-tabbed-content.php:52,
+#: ../template-parts/cards/card-podcast-sm.php:9,
+#: ../template-parts/cards/card-podcast.php:9
+msgid "Learn More"
+msgstr "Erfahren Sie mehr"
+
+#: ../template-parts/blocks/block-tabbed-content.php:36
+msgid "Pricing Outcomes"
+msgstr "Preisergebnisse"
+
+#: ../template-parts/blocks/block-tabbed-content.php:39
+msgid "Automated Intelligent Pricing"
+msgstr "Automatisierte intelligente Preisgestaltung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:41
+msgid "Dynamic Pricing"
+msgstr "Dynamische Preisgestaltung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:42
+msgid "Centralized Price Management"
+msgstr "Zentralisiertes Preismanagement"
+
+#: ../template-parts/blocks/block-tabbed-content.php:43
+msgid "Market Data Management"
+msgstr "Marktdatenverwaltung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:44
+msgid "Transfer Price Management"
+msgstr "Verrechnungspreismanagement"
+
+#: ../template-parts/blocks/block-tabbed-content.php:45
+msgid "List Price Management"
+msgstr "Listenpreisverwaltung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:46
+msgid "Pricing Guidance"
+msgstr "Preisberatung"
+
+#: ../template-parts/blocks/block-tabbed-content.php:47
+msgid "Pricing Analytics"
+msgstr "Preisanalyse"
+
+#: ../template-parts/blocks/block-tabbed-content.php:48
+msgid "Incentive Management"
+msgstr "Anreizmanagement"
+
+#: ../template-parts/cards/card-content-custom.php:14,
+#: ../template-parts/cards/card-content.php:34,
+#: ../template-parts/cards/card-press-featured.php:37,
+#: ../template-parts/cards/card-resource.php:25,
+#: ../template-parts/cards/card-resources-featured.php:43,
+#: ../template-parts/components/content-card.php:29,
+#: ../template-parts/layouts/single-default.php:186
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: ../template-parts/cards/card-quote.php:22
+msgid "View Case Study"
+msgstr "Fallstudie ansehen"
+
+#: ../template-parts/components/social-share.php:2
+msgid "Share this article"
+msgstr "Teile diesen Artikel"
+
+#: ../template-parts/layouts/single-default.php:24,
+#: ../template-parts/layouts/single-podcast.php:22
+msgid "Read Time"
+msgstr "Lesezeit"
+
+#: ../template-parts/layouts/single-default.php:145,
+#: ../template-parts/layouts/single-podcast.php:70
+msgid "About The Author"
+msgstr "Über den Autor"
+
+#: ../template-parts/layouts/single-default.php:149,
+#: ../template-parts/layouts/single-podcast.php:74
+msgid "Website"
+msgstr "Webseite"
+
+#: ../template-parts/layouts/single-default.php:170
+msgid "Related articles:"
+msgstr "Zum Thema passende Artikel:"
+
+#: ../template-parts/layouts/single-glossary.php:9
+msgid "Vendavo Glossary"
+msgstr "Vendavo-Glossar"
+
+#: ../utility-page.php:3
+msgid "Utility Page"
+msgstr "Utility-Seite"

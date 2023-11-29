@@ -1,0 +1,349 @@
+.half--quiz {
+  flex-grow: 1;
+  @include md-up {
+    padding-right: 4rem;
+  }
+}
+.half--graph {
+  margin-top: 16px;
+  max-width: 550px;
+}
+
+.graph__disclaimer {
+  background-color: var(--gray-10);
+  margin-top: 2.5rem;
+  border-bottom-left-radius: var(--radius-LG);
+  border-bottom-right-radius: var(--radius-LG);
+  p {
+    line-height: 1.2;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+.graph__header {
+  margin-bottom: 2.5rem;
+  p {
+    @extend .kicker;
+  }
+  h3 {
+    color: var(--green-10);
+    letter-spacing: -1px !important;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+  }
+}
+.block--roi-calc,
+.block--cpq-calc {
+  /* Gravity Forms - Form Main
+  ***************************************************/
+  .gform_body {
+    .instruction {
+      display: none;
+    }
+    > .gform_fields {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    > .gform_fields .gfield:not(.gfield_html) {
+      position: relative;
+      width: 100%;
+      background-color: #fff;
+      position: relative;
+      border-radius: var(--radius-LG);
+      box-shadow: var(--dropShadow-20);
+      padding: 1rem 1.5rem;
+    }
+    .calc-half {
+      width: 49% !important;
+    }
+    .gfield_label {
+      padding-right: 1.75rem;
+      margin-bottom: 10px;
+      font-size: 18px;
+      .gfield_required {
+        display: none;
+      }
+    }
+    .gfield:not(.gfield_error) .gfield_description {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 9999;
+    }
+  }
+  /* Gravity Forms - Range Slider
+  ***************************************************/
+  .gfield .irs-to,
+  .gfield .irs-from {
+    display: none;
+  }
+  .gfield .irs--round {
+    height: 30px;
+  }
+  .gfield .irs-handle {
+    border-color: var(--blue-30);
+    opacity: 0;
+  }
+  .gfield .irs-line,
+  .gfield .irs-bar {
+    height: 12px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .gfield .irs-bar {
+    background: var(--gradient-Navy);
+  }
+  .gfield .irs-single {
+    top: -3px;
+    z-index: 1000;
+    padding: 8px;
+    background: #fff;
+    color: var(--blue-30);
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Manrope";
+    border: 2px solid var(--blue-30);
+    cursor: pointer;
+    &::before {
+      display: none;
+    }
+  }
+  /* Gravity Forms - Form Footer
+  ***************************************************/
+  .gform_footer {
+    margin: 0 !important;
+    padding: 0 3rem 3rem 3rem !important;
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+  }
+  .gform_footer input[type="submit"] {
+    display: inline-block;
+    border-radius: 7px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    border: 2px solid var(--blue-20);
+    padding: 0.5em 0.75em 0.5em 0.75em;
+
+    @include lg-up {
+      padding: 0.675em 1.5em;
+    }
+    color: #fff;
+    background-color: var(--blue);
+    background: var(--gradient-Green);
+    color: #fff;
+    width: 100%;
+  }
+  /* Graph Confirmation Message
+***************************************************/
+  .confirmation-msg {
+    background-color: #fff;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--dropShadow-20);
+    left: 0;
+    .marketo-lead {
+      display: none;
+    }
+    img {
+      width: 80%;
+      height: auto;
+      max-width: 450px;
+    }
+  }
+}
+
+.ginput_container.ginput_container_slider {
+  flex-grow: 1;
+}
+
+/* Gravity Forms - Tooltips
+***************************************************/
+.popover-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid var(--blue-30);
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  opacity: 0.75;
+  right: 0;
+  cursor: pointer;
+  &::after {
+    content: "?";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 700;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: var(--blue-30);
+  }
+}
+
+.popover-msg {
+  display: none;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  transform: translateY(-50%);
+  opacity: 0.5;
+  right: 2.5rem;
+  padding: 10px;
+  z-index: 300;
+  border-radius: 3px;
+  box-shadow: var(--dropShadow-10);
+  border-radius: var(--radius-SM);
+  background-color: #fff;
+  font-size: 11px;
+}
+.popover-icon:hover {
+  color: var(--green-20);
+  opacity: 1;
+}
+.popover-icon:hover + .popover-msg {
+  opacity: 1 !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+.gfield_visibility_hidden {
+  display: none !important;
+}
+
+/* Gravity Forms - Personal Information Fields
+***************************************************/
+#formContact {
+  display: none;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 3rem 3rem 1rem 3rem;
+  h3 {
+    text-align: center;
+    font-weight: 700;
+  }
+  &.is-open {
+    display: block;
+  }
+  li.gfield,
+  div.ginput_container_name span.name_last {
+    padding-right: 0;
+  }
+}
+li.full-report {
+  margin: 1.5rem 0 0 0;
+  &.is-first {
+    margin-top: 2rem !important;
+  }
+  input,
+  .ginput_container {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+}
+
+.download-report-container {
+  margin-top: 3rem;
+  .btn {
+    width: 100%;
+  }
+}
+/* Hide the first form page if validation errors thrown on the second page
+***************************************************/
+.gform_wrapper.gform_validation_error {
+  .gform_body > .gform_fields {
+    display: none !important;
+  }
+  .gform_footer,
+  #formContact {
+    display: block !important;
+  }
+}
+
+/* Results Graph
+***************************************************/
+
+.graph__inner {
+  background-color: #fff;
+  padding: 3rem 0 0 0;
+  border-radius: var(--radius-LG);
+  box-shadow: var(--dropShadow-20);
+}
+.graph__disclaimer,
+.graph__legend,
+.graph__chart {
+  padding: 0 3rem;
+}
+.graph__chart {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+/* Graph Legend
+***************************************************/
+.graph-legend {
+  &__swatch {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+    border-radius: 2px;
+  }
+  &__ul {
+    padding: 0;
+    margin-top: 2.5rem;
+    list-style-type: none;
+  }
+  &__li {
+    margin-top: 0.25rem;
+    font-size: 13px;
+    border-top: 2px solid var(--gray-10);
+    padding-top: 0.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  &__label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  &__num {
+    display: inline-block;
+    color: var(--blue-30);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+.block--cpq-calc .graph-legend__num::after {
+  content: "%";
+}
+
+.gform_wrapper li.gfield fieldset.roi-fieldset ul {
+  display: flex !important;
+  align-items: center;
+  .gf_left_third .gsection_description {
+    display: none;
+  }
+}

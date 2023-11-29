@@ -1,0 +1,143 @@
+/* Single Challenge/Outcome Card
+    ***************************************************/
+    .block--challenges-and-outcomes {
+        .slick-track {
+          display: flex;
+      
+          .slick-slide {
+            height: auto;
+      
+            > div {
+              height: 100%;
+            }
+          }
+        }
+        .tab-group::before {
+          content: 'Explore:';
+          position: absolute;
+          left: 0;
+          transform: translate(-120%, -50%);
+          top: 50%;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 700;
+          letter-spacing: .08rem;
+          color: var(--green-20);
+        }
+      }
+      
+      .slick-initialized .chout-card,
+      .slick-initialized .chout-card__inner {
+        height: 100%;
+      }
+      .block--challenges-and-outcomes .tab-group__indicator {
+        width: 80px;
+      }
+      .chout-card__btn {
+        margin-top: 2rem;
+      }
+      .chout-card {
+        padding: 2em 1em;
+      }
+      .chout-card__inner {
+        background-color: #fff;
+        overflow: hidden;
+        position: relative;
+        // margin-top: 2rem;
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      }
+      .chout-card__sidebar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        background: var(--blue-20);
+      }
+      .sidebar-headline {
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        transform-origin: top left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+      
+      .chout-container {
+        padding-bottom: 1rem;
+      }
+      .chout-card__column {
+        padding: 1rem;
+      }
+      .chout-card__right .chout-card__column {
+        background-color: #faf9f9;
+        border-radius: 10px;
+        padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+      }
+      .chout-card__headline {
+        margin: 1.5rem 0;
+      }
+      
+      .chout-card:not(:first-child) .chout-card__sidebar {
+        background-color: var(--green-20);
+      }
+      .chout__header {
+        text-align: center;
+        padding: 0 1em;
+      }
+      @media screen and (min-width: 992px) {
+        .chout-card__right .chout-card__column {
+          padding: 2.5rem 3rem 2.5rem 3rem;
+          height: 100%;
+        }
+      
+        .chout-card__headline {
+          margin-top: 0;
+        }
+        .chout-card__inner {
+          padding: 2rem 2rem 2rem 5rem;
+        }
+      
+        .sidebar-headline {
+          transform: rotate(-90deg) translate(-50%, -50%);
+        }
+        .chout-card__sidebar {
+          height: 100%;
+          width: 50px;
+          background: var(--blue-20);
+        }
+      
+        .chout__header {
+          text-align: left;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 1.5rem;
+        }
+        .chout__header .tab-group {
+          margin-top: 0;
+        }
+      
+        .chout-card__left {
+          width: 45%;
+          padding-right: 3rem;
+        }
+        .chout-card__right {
+          width: 55%;
+        }
+        .chout-card__body {
+          display: flex;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .chout-card__right .chout-card__column ul {
+          columns: 2;
+          column-gap: 50px;
+        }
+      }
+      

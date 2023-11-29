@@ -1,0 +1,142 @@
+.podcast-grid__kicker {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  border-radius: 30px;
+  padding: 0.125rem .75rem;
+  font-weight: 700;
+  text-align: center;
+  font-size: 12px;
+}
+
+.grid-30 {
+  .item {
+    margin-bottom: 30px;
+  }
+}
+
+.podcast-grid__headline {
+  font-size: 1.25rem;
+}
+
+.card-podcast-img {
+  position: relative;
+  padding-bottom: 47.931034%;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.1;
+    z-index: 3;
+    transition: all .35s cubic-bezier(.4,0,.2,1);
+  }
+  .podcast-play__icon {
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    transition: all .35s cubic-bezier(.4,0,.2,1);
+    &:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+  }
+  .podcast-grid__image {
+    transition: all .35s cubic-bezier(.4,0,.2,1);
+  }
+  &:hover {
+    &:before {
+      opacity: .4;
+    }
+    .podcast-play__icon {
+      opacity: 1;
+    }
+    .podcast-grid__image {
+      transform: scale(1.02);
+    }
+  }
+
+}
+
+.podcast-feature__grid {
+  .item {
+    &:nth-child(5n+1) {
+      .podcast-grid__headline {
+        font-size: 2rem;
+      }
+      .podcast-grid__kicker {
+        top: 1rem;
+        bottom: auto;
+        background-color: var(--green-10);
+      }
+      .card-podcast-img {
+        .podcast-play__icon {
+          opacity: 1;
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+    &:nth-child(5n+2) {
+      .podcast-grid__kicker {
+        background-color: var(--purple-10);
+      }
+    }
+    &:nth-child(5n+3) {
+      .podcast-grid__kicker {
+        background-color: var(--teal-10);
+      }
+    }
+    &:nth-child(5n+4) {
+      .podcast-grid__kicker {
+        background-color: var(--blue-10);
+      }
+    }
+    &:nth-child(5n) {
+      .podcast-grid__kicker {
+        background-color: var(--yellow-20);
+      }
+    }
+  }
+  /*
+  .item-1 {
+    .podcast-grid__headline {
+      font-size: 2rem;
+    }
+    .podcast-grid__kicker {
+      top: 1rem;
+      bottom: auto;
+      background-color: var(--green-10);
+    }
+    .card-podcast-img {
+      .podcast-play__icon {
+        opacity: 1;
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+  .item-2 {
+    .podcast-grid__kicker {
+      background-color: var(--purple-10);
+    }
+  }
+  .item-3 {
+    .podcast-grid__kicker {
+      background-color: var(--teal-10);
+    }
+  }
+  .item-4 {
+    .podcast-grid__kicker {
+      background-color: var(--blue-10);
+    }
+  }
+  .item-5 {
+    .podcast-grid__kicker {
+      background-color: var(--yellow-20);
+    }
+  }
+  */
+}

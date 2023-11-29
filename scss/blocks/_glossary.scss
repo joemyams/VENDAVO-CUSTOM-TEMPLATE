@@ -1,0 +1,17 @@
+.nav-glossary {
+  .nav-link {
+    padding: .25rem .75rem;
+  }
+  .disabled {
+    opacity: .6;
+  }
+}
+
+.glossary__card {
+  padding: 1rem;
+  transition: .3s box-shadow ease;
+  border-radius: 5px;
+  &:hover {
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.2);
+  }
+}

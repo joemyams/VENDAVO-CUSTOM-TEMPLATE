@@ -1,0 +1,42 @@
+.content-card__placeholder-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 100%;
+  background-color: var(--blue-40);
+  background-image: url(../img/vendavo-logo_white.png);
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  background-position: 40% 50%;
+  transform: skewX(15deg);
+}
+
+
+.card--search {
+  .content-card__placeholder-image {
+    background-position: 33% 50%;
+    transform: skewX(0);
+  }
+  .post__kicker {
+    position: absolute;
+    left: 2rem;
+    bottom: 1rem;
+  }
+  .kicker {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 11px;
+    border-radius: 100px;
+    background: var(--gradient-BlueGreenV2);
+  }
+}
+
+.block--glossary-featured {
+  .card {
+    .content-card__placeholder-image {
+      background-position: 33% 50%;
+      transform: skewX(0);
+    }
+  }
+}

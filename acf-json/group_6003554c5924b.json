@@ -1,0 +1,114 @@
+{
+    "key": "group_6003554c5924b",
+    "title": "Menu Item - Dropdown Style",
+    "fields": [
+        {
+            "key": "field_6003556bb4a0a",
+            "label": "Dropdown Style",
+            "name": "dropdown_style",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "acf-image-select",
+                "id": ""
+            },
+            "choices": {
+                "one-column": "<img src=\"\/wp-content\/themes\/vendavo_twentyone\/assets\/admin\/dropdown-one-column.jpg\"><p>One Column<\/p>",
+                "two-column": "<img src=\"\/wp-content\/themes\/vendavo_twentyone\/assets\/admin\/dropdown-two-column.jpg\"><p>Two Column<\/p>",
+                "three-column": "<img src=\"\/wp-content\/themes\/vendavo_twentyone\/assets\/admin\/dropdown-three-column.jpg\"><p>Three Column<\/p>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "one-column",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_60a7be62b5903",
+            "label": "Has Unequal Columns?",
+            "name": "has_unequal_columns",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_644aa8f6a6c1c",
+            "label": "Has Stacked Columns?",
+            "name": "has_stacked_columns",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 0,
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_644aa90da6c1d",
+            "label": "Has Colored Columns?",
+            "name": "has_colored_columns",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 0,
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfml_field_group_mode": "advanced",
+    "modified": 1682614937
+}

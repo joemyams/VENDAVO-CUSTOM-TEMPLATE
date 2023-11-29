@@ -1,0 +1,66 @@
+.block--faq-v2 {
+  position: relative;
+  &.has__bg-img {
+    > .cont {
+      padding-top: 60px;
+    }
+  }
+  .block-bg__imgV2 {
+    background-position: top center !important;
+  }
+  .btn-accordion {
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-radius: 0;
+    border-top: 1px solid #CDCDCD;
+    color: #50A625;
+    font-weight: 700;
+    font-size: 1.75rem;
+    padding: 1.5rem 4rem 1.5rem 0;
+    &:hover, &:focus {
+      outline: none;
+      border-top: 1px solid #CDCDCD;
+    }
+    .collapse-icon {
+      left: auto;
+      right: 10px;
+      &:before {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 40px;
+        top: -10px;
+        left: -11px;
+        border-radius: 50%;
+        box-shadow: 0px 4px 5px #00000024;
+        background: #FFF;
+        transition: all .35s ease-in-out;
+      }
+      .symbol-plus {
+        &:before, &:after {
+          border-bottom: solid 2px #238087;
+        }
+      }
+    }
+  }
+  .half-text__headline {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(270deg, #5B9934 0%, #37737B 100%);
+    color: #5B9934;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .block--faq-v2 {
+    .card__inner {
+      max-width: 75%;
+      > p {
+        font-size: 1.125rem;
+      }
+    }
+  }
+}

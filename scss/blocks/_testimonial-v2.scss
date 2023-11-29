@@ -1,0 +1,135 @@
+.block--testimonial-v2 {
+  position: relative;
+  .section__abs {
+    left: 0;
+    width: 50%;
+    top: 0;
+    height: 100%;
+    background-size: contain !important;
+    background-position: bottom left !important;
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 70%;
+      background: linear-gradient(180deg, #FFFFFF00 0%, #FFFFFF 100%);
+    }
+  }
+  .quote__abs {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    bottom: 0;
+  }
+  &.is-align--is-row-reverse {
+    .section__abs {
+      left: 50%;
+      background-position: bottom right !important;
+      height: 80%;
+      top: auto;
+      bottom: 0;
+    }
+    .quote__abs {
+      left: 60%;
+    }
+  }
+  &.is-text--white {
+    .section__abs {
+      &:before {
+        display: none;
+      }
+    }
+    &.has__bg-img2 {
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+        height: 30%;
+        background: linear-gradient(1deg, #0F3053 0%, #0F31547E 67%, #0F315400 100%);
+      }
+    }
+  }
+  &.has__bg-img2 {
+    .block-bg2__imgV2 {
+      background-size: cover !important;
+      background-position: bottom left !important;
+    }
+    > .cont {
+      padding-bottom: 80px;
+      padding-top: 120px;
+    }
+  }
+  .cs-feature__subheadline {
+    font-size: 1.5rem;
+    line-height: 1.35;
+  }
+  .cs-feature__body > p {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+  }
+  .svg__shape-top {
+    left: 0;
+    top: -1px;
+    width: 101vw;
+    > .inner {
+      padding-bottom: 10.52083%;
+      background-size: contain !important;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .block--testimonial-v2 {
+    .half--text {
+      padding-left: 15px;
+    }
+    .is-row-reverse .half--text {
+      padding-right: 15px;
+      padding-left: 0;
+    }
+    .is-row .half--text {
+      margin-left: auto;
+    }
+    .is-row-reverse .half--text {
+      margin-right: auto;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .block--testimonial-v2 {
+    .section__abs {
+      position: relative;
+      padding-bottom: 68.32627%;
+      width: 100%;
+    }
+    &.has__bg-img2 {
+      > .cont {
+        padding-top: 90px;
+      }
+    }
+    &.is-align--is-row-reverse {
+      .section__abs {
+        left: 0;
+      }
+      .quote__abs {
+        left: 0;
+      }
+    }
+    .cs-feature__subheadline {
+      font-size: 1.25rem;
+      line-height: 1.35;
+    }
+    .quote__abs {
+      left: 0;
+      width: 100%;
+    }
+  }
+}

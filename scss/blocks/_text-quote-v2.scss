@@ -1,0 +1,131 @@
+.section__abs {
+  position: absolute;
+}
+
+
+@media (max-width: 991px) {
+  .section__abs {
+    position: relative;
+  }
+}
+
+
+
+.block--text-quote-v2 {
+  position: relative;
+
+  .section__abs {
+    right: 0;
+    width: 50%;
+    top: 0;
+    height: 100%;
+  }
+  /*
+  .radial__bg {
+    position: absolute;
+    width: 70%;
+    opacity: 0.4;
+    left: -20%;
+    top: -20%;
+    height: 100vh;
+    background: radial-gradient(closest-side at 50% 50%, #78C34E 0%, #94CF73CA 39%, #C6E5B46C 70%, #FFFFFF00 100%);
+  }
+  */
+}
+
+.text-quote__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}
+
+.text-quote__quote {
+  font-size: 1.675rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.text-quote__author {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .block--text-quote-v2 {
+    padding-bottom: 0 !important;
+    .half--text, .section__abs {
+      width: 100% !important;
+    }
+    .section__abs {
+      margin-top: 2rem;
+      background: #50A625 !important;
+      background-image: none !important;
+    }
+  }
+  
+  .text-quote__inner {
+    position: relative;
+    transform: none;
+    top: auto;
+    left: auto;
+    width: 90%;
+    margin: 0 auto;
+    max-width: var(--cont-MAX);
+    padding: 5rem 0 15rem 0;
+  }
+}
+
+
+
+
+@media (min-width: 992px) {
+  .block--text-quote-v2 {
+    > .cont {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+  }
+  .text-quote__inner {
+    width: 50%;
+  }
+  
+}
+
+
+@media(min-width: 992px) and (max-width: 1200px) {
+  .text-quote__inner {
+    width: 70%;
+  }
+  .block--text-quote-v2 {
+    .section__abs {
+      background-size: 150% !important;
+      background-position: bottom left !important;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .block--text-quote-v2 {
+    .text-quote__img {
+      position: relative;
+      margin-left: auto;
+      margin-top: -2rem;
+    }
+    .text-quote__inner {
+      padding-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .block--text-quote-v2 .half--text {
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .block--text-quote-v2 .half--text {
+    padding-right: 4rem;
+  }
+}

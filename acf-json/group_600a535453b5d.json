@@ -1,0 +1,690 @@
+{
+    "key": "group_600a535453b5d",
+    "title": "Block - Popular Resources",
+    "fields": [
+        {
+            "key": "field_600a535459577",
+            "label": "Text",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_60147c40ee1e8",
+            "label": "",
+            "name": "block_header",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "hidden-th",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60147c40ee1e9",
+                    "label": "Kicker",
+                    "name": "kicker",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_60147c40ee1ea",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Headline Kicker",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_60147c40ee1eb",
+                            "label": "Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "is-text--blue-30",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_60147c40ee1ec",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_60147c40ee1ed",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Headline",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_60147c40ee1ee",
+                            "label": "Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "is-text--blue-30",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_60147c40ee1ef",
+                    "label": "Subheadline",
+                    "name": "subheadline",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_60147c40ee1f0",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Subheadline",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_60147c40ee1f1",
+                            "label": "Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "is-text--blue-30",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_600a5368bd9c0",
+            "label": "Resources",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_601421a7c6e42",
+            "label": "Card Style",
+            "name": "block_variant",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "acf-image-select is-md",
+                "id": ""
+            },
+            "choices": {
+                "is-icon-center": "<img src=\"\/wp-content\/themes\/vendavo_twentyone\/assets\/admin\/resource-card-stacked.jpg\"><p>Icon Above<\/p>",
+                "is-icon-left": "<img src=\"\/wp-content\/themes\/vendavo_twentyone\/assets\/admin\/resource-card-side.jpg\"><p>Icon Left<\/p>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "is-icon-center",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_60158ab046572",
+            "label": "Auto-populate from Resource Library:",
+            "name": "block_resouce_posts",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "resources"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 1,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_601595f58dca4",
+            "label": "Add Additional Content Cards?",
+            "name": "use_additional",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_60141df382d37",
+            "label": "Additional Content:",
+            "name": "block_resources",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_601595f58dca4",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Resource",
+            "sub_fields": [
+                {
+                    "key": "field_60141dfd82d38",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60141e0382d39",
+                    "label": "Headline Kicker",
+                    "name": "kicker",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60141e0c82d3a",
+                    "label": "Headline",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60141fb663abf",
+                    "label": "Subheadline",
+                    "name": "subheadline",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60141ec46b3b0",
+                    "label": "CTA Button",
+                    "name": "link",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_60141ec46b3b1",
+                            "label": "Link Type",
+                            "name": "type",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "No Link",
+                                "internal": "Internal Link",
+                                "external": "External Link",
+                                "video": "Video Lightbox",
+                                "file": "File Download"
+                            },
+                            "default_value": "none",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_60141ec46b3b2",
+                            "label": "URL",
+                            "name": "external_link",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_60141ec46b3b1",
+                                        "operator": "==",
+                                        "value": "external"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_60141ec46b3b3",
+                            "label": "Page Link",
+                            "name": "internal_link",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_60141ec46b3b1",
+                                        "operator": "==",
+                                        "value": "internal"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "page"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "allow_archives": 0,
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_60141ec46b3b4",
+                            "label": "Video Link",
+                            "name": "video_link",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_60141ec46b3b1",
+                                        "operator": "==",
+                                        "value": "video"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_60141ec46b3b5",
+                            "label": "File",
+                            "name": "file",
+                            "type": "file",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_60141ec46b3b1",
+                                        "operator": "==",
+                                        "value": "file"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "",
+                            "library": "",
+                            "min_size": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_60141ec46b3b6",
+                            "label": "Button Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_60141ec46b3b1",
+                                        "operator": "!=",
+                                        "value": "none"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_60141ec46b3b7",
+                            "label": "Button Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_60141ec46b3b1",
+                                        "operator": "!=",
+                                        "value": "none"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "btn--primary is-ltGray": "<span class=\"editor-swatch is-bg--gray-10 is-ltGray\"><\/span> <span class=\"editor-swatch-label\">Light Gray<\/span>",
+                                "btn--primary is-dkGray": "<span class=\"editor-swatch is-bg--gray-20 is-dkGray\"><\/span> <span class=\"editor-swatch-label\">Dark Gray<\/span>",
+                                "btn--primary is-green": "<span class=\"editor-swatch is-bg--green-20 is-green\"><\/span> <span class=\"editor-swatch-label\">Green<\/span>",
+                                "btn--primary is-blue": "<span class=\"editor-swatch is-bg--blue-20 is-blue\"><\/span> <span class=\"editor-swatch-label\">Blue<\/span>",
+                                "btn--primary is-navy": "<span class=\"editor-swatch is-bg--gray-30 is-navy\"><\/span> <span class=\"editor-swatch-label\">Navy<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "btn--primary is-green",
+                            "layout": "",
+                            "return_format": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/popular-resources"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1612064468
+}

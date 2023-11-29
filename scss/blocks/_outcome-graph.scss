@@ -1,0 +1,86 @@
+.outcome-graph__dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 3px solid var(--green-10);
+  z-index: 5;
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+.block--outcome-graph svg {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .outcome-graph__dot {
+    width: 10px;
+    height: 10px;
+    bottom: 11%;
+  }
+  .outcome-graph__header {
+    text-align: center;
+  }
+}
+.outcome-graph__headline {
+  @include lg-up {
+    width: 80%;
+    max-width: 700px;
+    font-size: 2.5rem;
+  }
+}
+.outcome-graph-container {
+  margin-top: 2rem;
+  @include lg-up {
+    margin-top: -5rem;
+  }
+}
+
+.outcome-graph-container::before,
+.outcome-graph-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  height: 75%;
+}
+
+.outcome-graph-container::before {
+  left: 0;
+  background: linear-gradient(
+    95deg,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.is-bg--gray-10 .outcome-graph-container::before {
+  background: linear-gradient(
+    95deg,
+    rgba(243, 241, 239, 1) 20%,
+    rgba(243, 241, 239, 0) 100%
+  );
+}
+
+.is-bg--gray-10 .outcome-graph-container::after {
+  background: linear-gradient(
+    275deg,
+    rgba(243, 241, 239, 1) 20%,
+    rgba(243, 241, 239, 0) 100%
+  );
+}
+
+.outcome-graph-container::after {
+  right: 0px;
+  background: linear-gradient(
+    275deg,
+    rgba(255, 255, 255, 1) 20%,s
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+section.is-bg--gray-10 .tab-group {
+  background-color: #fff;
+}

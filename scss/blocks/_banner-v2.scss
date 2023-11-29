@@ -1,0 +1,31 @@
+.block--banner-v2 {
+  position: relative;
+  /*
+  .banner-v2__image {
+    border-radius: 64px;
+  }
+  */
+  .svg__shape-left {
+    left: -15vw;
+    top: -2vw;
+    width: 30vw;
+    bottom: auto;
+    > .inner {
+      padding-bottom: 89.3899%;
+      background-size: contain !important;
+    }
+  }
+  .svg__shape-right {
+    right: -18vw;
+    top: -10vw;
+    width: 31vw;
+    top: auto;
+    bottom: -10%;
+    > .inner {
+      padding-bottom: 93.1608%;
+      background-size: contain !important;
+    }
+  }
+
+
+}

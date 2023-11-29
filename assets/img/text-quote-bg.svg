@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="970" height="1461" viewBox="0 0 970 1461">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1669" data-name="Rectangle 1669" width="970" height="1461" transform="translate(950 2815)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="quote-shape-new" transform="translate(-950 -2815)" clip-path="url(#clip-path)">
+    <path id="QUOTE_SHAPE" data-name="QUOTE SHAPE" d="M1274.379,0,1303.7,57.574c74.5,146.274,165.066,272.285,157.129,444.191-7.311,158.357-78.323,312.45-210.193,404.882-151.671,106.311-384.83,124.44-535.024,4.516-63.713-50.872-106-124.794-165.561-180.329-67.62-63.044-155.755-93.468-242.85-118.793-61.441-17.865-122.713-39.256-176.062-74.584C-62.556,409.19,2.134,191.291,50.883,4.5Z" transform="translate(1965.919 2822.274) rotate(91)" fill="#50a625"/>
+  </g>
+</svg>

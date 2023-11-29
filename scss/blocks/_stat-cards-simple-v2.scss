@@ -1,0 +1,36 @@
+.block--stat-cards-simple-v2 {
+  .stat-number {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 1.5rem;
+  }
+  .card-stat {
+    font-weight: 800;
+    line-height: 1;
+  }
+}
+
+/*
+@media (max-width: 768px) {
+  .block--stat-cards-v2 {
+    .tab-link {
+      font-size: 1.75rem;
+    }
+  }
+}
+*/
+
+@media (max-width: 567px) {
+  .block--stat-cards-simple-v2 {
+    .stat-number {
+      font-size: 3.5rem;
+    }
+    .stat-label {
+      font-size: 1.25rem;
+    }
+  }
+}
+

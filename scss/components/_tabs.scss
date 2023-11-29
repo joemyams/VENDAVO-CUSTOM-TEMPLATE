@@ -1,0 +1,53 @@
+.tab-group {
+  width: auto;
+  margin-top: 2rem;
+  background-color: var(--gray-10);
+  border-radius: 100px;
+  padding: 1em 0.55em;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+}
+.tab-link {
+  cursor: pointer;
+}
+.tab-group a {
+  position: relative;
+  z-index: 1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 1.25rem;
+  margin-right: 1.25rem;
+  line-height: 1.2;
+  display: inline-block;
+  transition: 300ms ease color;
+
+  &.is-active {
+    color: #fff;
+    transition: 300ms ease color;
+  }
+}
+.tab-group a:last-child {
+  margin-right: 0;
+}
+.tab-group__indicator {
+  position: absolute;
+  top: 15%;
+  left: 0.65em;
+  width: 133px;
+  height: 70%;
+  background: var(--gradient-Green);
+  border-radius: 100px;
+}
+
+.tab-group__indicator[data-position="1"] {
+  background: var(--gradient-Pink);
+}
+
+.tab-group__indicator[data-position="2"] {
+  background: var(--gradient-Teal);
+}
+
+.tab-group__indicator[data-position="3"] {
+  background: var(--gradient-Purple);
+}

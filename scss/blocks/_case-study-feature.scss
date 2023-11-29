@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) {
+  .block--case-study-feature.is--two-column .half--text {
+    padding-left: 2rem;
+  }
+  .block--case-study-feature.is--two-column .is-row-reverse .half--text {
+    padding-right: 2rem;
+    padding-left: 0;
+  }
+  
+}
+@media screen and (min-width: 1200px) {
+  .block--case-study-feature.is--two-column .half--text {
+    padding-left: 4rem;
+  }
+  .block--case-study-feature.is--two-column .is-row-reverse .half--text {
+    padding-right: 4rem;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block--case-study-feature.is--two-column {
+    .half--image {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+  .block--case-study-feature.is--two-column .cs-feature__image {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+  }

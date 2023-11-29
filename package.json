@@ -1,0 +1,23 @@
+{
+  "name": "vendavo_twentyone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "node-sass --watch --output-style nested --include-path scss scss/theme.scss assets/css/theme.css",
+    "build:editor": "node-sass --output-style compressed 'scss/editor.scss' > 'editor.css'",
+    "build": "node-sass --output-style compressed --include-path scss scss/theme.scss assets/css/theme.css",
+    "wp-pot": "wp-pot --src '*.php' --src 'template-parts/blocks/*.php' --src 'template-parts/cards/*.php' --src 'template-parts/components/*.php' --src 'template-parts/footer/*.php' --src 'template-parts/header/*.php' --src 'template-parts/layouts/*.php' --src 'template-parts/quizzes/*.php' --dest-file 'languages/dvm.pot' --domain 'vendavo'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.16.1",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "wp-pot-cli": "^1.2.1"
+  },
+  "dependencies": {
+    "micromodal": ">=0.4.6"
+  }
+}

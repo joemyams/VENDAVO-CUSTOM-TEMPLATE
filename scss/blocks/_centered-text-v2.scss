@@ -1,0 +1,139 @@
+.block--centered-text {
+  position: relative;
+  .block-bg__imgV2 {
+    background-position: top center !important;
+  }
+  &.has__bg-img {
+    > .cont {
+      padding-top: 120px;
+    }
+  }
+  &.has__cta-link {
+    .half-text__body p {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+
+}
+
+
+.block__centered-card {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    border-radius: 35px;
+    max-width: var(--cont-MAX);
+  }
+  > .cont {
+    padding: 3rem 2rem
+  }
+  .centered-image__container {
+    margin-top: 2.5rem;
+  }
+  &.card__blue-fill {
+    &:before {
+      opacity: 0.36;
+      background: #4693AC;
+    }
+  }
+  &.card__blue-gradient {
+    &:before {
+      opacity: 0.61;
+      background: linear-gradient(177deg, #4693AC 0%, #FFFFFF00 100%);
+    }
+  }
+
+
+}
+.block--centered-text {
+  &.has__gray-gradient {
+    background: linear-gradient(3deg, #C8C8C8 0%, #fff 70%, #fff 100%);
+  }
+  &.has__bg-shape-bottom {
+    > .cont {
+      padding-bottom: 8rem;
+    }
+    .svg__shape-bottom {
+      left: 0;
+      bottom: -1px;
+      width: 101vw;
+      > .inner {
+        padding-bottom: 15.364583%;
+        background-size: contain !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .block--centered-text {
+    &.centered__vendavo-process {
+      .centered-image__container {
+        margin-bottom: var(--spacing-XS);
+      }
+      .centered-text__inner {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .half-text__subheadline {
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .block--centered-text {
+    &.has__bg-img {
+      .half-text__subheadline {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .block--centered-text {
+    &.has__text-narrow {
+      .centered-text__inner {
+        width: 70%;
+      }   
+    }
+  }
+}
+
+@media (min-width: 1441px) {
+  .block--centered-text {
+    &.has__bg-shape-bottom {
+      > .cont {
+        padding-bottom: 12rem;
+      }
+    }
+  }
+}
+
+
+/*
+@media (max-width: 991px) {
+  .block--centered-text {
+    &.has__bg-img {
+      > .cont {
+        padding-top: 120px;
+      }
+    }
+  }
+}
+*/

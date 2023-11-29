@@ -1,0 +1,212 @@
+section .gform_body {
+  // @include boxShadow;
+  border: 1px solid var(--ltGray);
+  border-radius: 10px;
+  padding: 4rem;
+}
+
+/* Gravity Form Steps
+***************************************************/
+section .gform_wrapper .gf_page_steps {
+  background-color: var(--ltGray);
+  border-radius: 10px;
+  padding: 0.25rem 1.5rem 0.25rem 1.5rem;
+  border: 1px solid var(--ltGray);
+  // margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+section .gform_wrapper .gsection {
+  border: none;
+  text-align: center;
+}
+
+section .gform_wrapper .gf_step {
+  text-align: center;
+  margin: 1rem 0;
+  width: 20%;
+  height: auto;
+  flex-grow: 1;
+}
+/* Radio Button Styles
+  ***************************************************/
+.ce-form__radio-btns {
+}
+.ce-form__radio-btns .gfield_radio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section .gform_wrapper .ce-form__radio-btns .gfield_radio > li {
+  width: 48%;
+
+  margin: 1% 2%;
+  text-align: center;
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  section .gform_wrapper .ce-form__radio-btns .gfield_radio > li {
+    width: 24%;
+    margin: 0.5% 1%;
+  }
+}
+section
+  .gform_wrapper
+  .ce-form__radio-list
+  .gfield_radio
+  > li
+  > input[type="radio"],
+section
+  .gform_wrapper
+  .ce-form__radio-btns
+  .gfield_radio
+  > li
+  > input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer !important;
+}
+section
+  .gform_wrapper
+  .ce-form__radio-list
+  .gfield_radio
+  > li
+  > input[type="radio"]:checked
+  + label,
+section
+  .gform_wrapper
+  .ce-form__radio-btns
+  .gfield_radio
+  > li
+  > input[type="radio"]:checked
+  + label {
+  border-color: var(--green);
+}
+section .gform_wrapper .ce-form__radio-list .gfield_radio > li label,
+section .gform_wrapper .ce-form__radio-btns .gfield_radio > li label {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100px;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem !important;
+  cursor: pointer !important;
+  border: 2px solid var(--ltGray);
+  border-radius: 7px;
+  font-weight: 700;
+}
+.ce-form__radio-btns .gfield_radio > li label span {
+  display: block;
+  font-size: 80%;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  line-height: 1.3;
+  width: 90%;
+}
+
+section .gform_wrapper .ce-form__radio-btns > label.gfield_label,
+section .gform_wrapper .ce-form__radio-list > label.gfield_label {
+  /* border: 1px solid red; */
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+/* Radio List styles
+  ***************************************************/
+section .gform_wrapper .ce-form__radio-list ul {
+  display: flex;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+section .gform_wrapper .ce-form__radio-list .gfield_radio > li label {
+  font-weight: 700;
+  padding: 2rem !important;
+  text-align: center;
+  justify-content: flex-start;
+}
+.ce-form__radio-list .gfield_radio > li label strong {
+  color: var(--blue);
+  font-size: 140%;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+.ce-form__radio-list .gfield_radio > li label span {
+  display: block;
+  position: relative;
+  font-weight: 500;
+  padding-left: 1rem;
+  margin-top: 0.75rem;
+  font-size: 80%;
+  width: 100%;
+  text-align: left;
+}
+/* .ce-form__radio-list .gfield_radio > li label span:not */
+.ce-form__radio-list .gfield_radio > li label span::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background-color: var(--green);
+}
+section .gform_wrapper .ce-form__radio-list .gfield_radio > li {
+  width: 100%;
+  flex-grow: 1;
+  margin: 1%;
+}
+@media screen and (min-width: 992px) {
+  section .gform_wrapper .ce-form__radio-list .gfield_radio > li {
+    width: 24%;
+  }
+}
+
+/* Button Range
+  ***************************************************/
+section .gform_wrapper .ce-form__radio-btns.is-range .gfield_radio > li {
+  margin: 0;
+  width: 25%;
+}
+section .gform_wrapper .ce-form__radio-btns.is-range .gfield_radio > li label {
+  border-radius: 0;
+  min-height: 0;
+  border-left: 2px solid transparent;
+}
+section
+  .gform_wrapper
+  .ce-form__radio-btns.is-range
+  .gfield_radio
+  > li:first-child
+  label {
+  border-left: 2px solid var(--ltGray);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+section
+  .gform_wrapper
+  .ce-form__radio-btns.is-range
+  .gfield_radio
+  > li:last-child
+  label {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}

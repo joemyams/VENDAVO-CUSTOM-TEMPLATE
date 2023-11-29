@@ -1,0 +1,849 @@
+{
+    "key": "group_604709e125c16",
+    "title": "Block - Quiz Maturity Characteristics",
+    "fields": [
+        {
+            "key": "field_604709e12d057",
+            "label": "Text",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_604709e12d061",
+            "label": "",
+            "name": "block_header",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "hidden-th",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_604709e135cfa",
+                    "label": "Kicker",
+                    "name": "kicker",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_604709e13a246",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Headline Kicker",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604709e13a264",
+                            "label": "Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "is-text--blue-30",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_604709e135d03",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_604709e14c740",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Headline",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604709e14c749",
+                            "label": "Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "is-text--blue-30",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_604709e135d0a",
+                    "label": "Subheadline",
+                    "name": "subheadline",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_604709e15e0ec",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Subheadline",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604709e15e0f4",
+                            "label": "Color",
+                            "name": "color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "is-text--blue-30",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_604709e135d11",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_604af2399a553",
+            "label": "Stage One",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_604af2499a554",
+            "label": "",
+            "name": "block_stage_one",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_604af2519a555",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_604af350e1d30",
+                    "label": "Chart",
+                    "name": "chart",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "Add Row",
+                    "sub_fields": [
+                        {
+                            "key": "field_604af35ae1d31",
+                            "label": "Icon",
+                            "name": "icon",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_604af363e1d32",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604af368e1d33",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 2,
+                            "new_lines": "wpautop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_604af72b09fe0",
+            "label": "Stage Two",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_604af72409fda",
+            "label": "",
+            "name": "block_stage_two",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_604af72409fdb",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_604af72409fdc",
+                    "label": "Chart",
+                    "name": "chart",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "Add Row",
+                    "sub_fields": [
+                        {
+                            "key": "field_604af72409fdd",
+                            "label": "Icon",
+                            "name": "icon",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_604af72409fde",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604af72409fdf",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 2,
+                            "new_lines": "wpautop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_604afed9c1f58",
+            "label": "Stage Three",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_604afee1c1f59",
+            "label": "",
+            "name": "block_stage_three",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_604afee1c1f5a",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_604afee1c1f5b",
+                    "label": "Chart",
+                    "name": "chart",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "",
+                    "button_label": "Add Row",
+                    "sub_fields": [
+                        {
+                            "key": "field_604afee1c1f5c",
+                            "label": "Icon",
+                            "name": "icon",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "",
+                            "preview_size": "thumbnail",
+                            "library": "",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_604afee1c1f5d",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604afee1c1f5e",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 2,
+                            "new_lines": "wpautop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_604afefbc1f65",
+            "label": "Stage Four",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_604afeeec1f5f",
+            "label": "",
+            "name": "block_stage_four",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_604afeeec1f60",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_604afeeec1f61",
+                    "label": "Chart",
+                    "name": "chart",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "Add Row",
+                    "sub_fields": [
+                        {
+                            "key": "field_604afeeec1f62",
+                            "label": "Icon",
+                            "name": "icon",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_604afeeec1f63",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604afeeec1f64",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 2,
+                            "new_lines": "wpautop"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/quiz-maturity-characteristics-page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1615527682
+}

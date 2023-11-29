@@ -1,0 +1,233 @@
+{
+    "key": "group_6001fa579e9ae",
+    "title": "Block Design",
+    "fields": [
+        {
+            "key": "field_60039fb114a61",
+            "label": "Colors & Spacing",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6001fb45589b8",
+            "label": "",
+            "name": "block_design",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "sub_fields": [
+                {
+                    "key": "field_6001fb7ba95a6",
+                    "label": "Background Color",
+                    "name": "background",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "acf-swatch-select",
+                        "id": ""
+                    },
+                    "choices": {
+                        "is-bg--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                        "is-bg--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                        "is-bg--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                        "is-bg--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                        "is-bg--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                        "is-bg--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                        "is-bg--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                        "is-bg--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                        "is-bg--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                        "is-bg--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                        "is-bg--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                        "is-bg--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                        "is-bg--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                        "is-bg--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                        "is-bg--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                        "is-bg--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                        "is-bg--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                        "is-bg--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>",
+                        "is-bg--blue-G": "<span class=\"editor-swatch is-bg--blue-G\"><\/span> <span class=\"editor-swatch-label\">Blue Gradient<\/span>",
+                        "is-bg--green-G": "<span class=\"editor-swatch is-bg--green-G\"><\/span> <span class=\"editor-swatch-label\">Green Gradient<\/span>",
+                        "is-bg--purple-G": "<span class=\"editor-swatch is-bg--purple-G\"><\/span> <span class=\"editor-swatch-label\">Purple Gradient<\/span>",
+                        "is-bg--pink-G": "<span class=\"editor-swatch is-bg--pink-G\"><\/span> <span class=\"editor-swatch-label\">Pink Gradient<\/span>",
+                        "is-bg--teal-G": "<span class=\"editor-swatch is-bg--teal-G\"><\/span> <span class=\"editor-swatch-label\">Teal Gradient<\/span>",
+                        "is-bg--navy-blue-G": "<span class=\"editor-swatch is-bg--navy-blue-G\"><\/span> <span class=\"editor-swatch-label\">Navy \/ Blue Gradient<\/span>",
+                        "is-bg--green10-V2": "<span class=\"editor-swatch is-bg--green10-V2\"><\/span> <span class=\"editor-swatch-label\">Light Green<\/span>",
+                        "is-bg--teal-30-V2": "<span class=\"editor-swatch is-bg--teal-30-V2\"><\/span> <span class=\"editor-swatch-label\">Teal 30<\/span>",
+                        "is-bg--blue-green-G-V2": "<span class=\"editor-swatch is-bg--blue-green-G-V2\"><\/span> <span class=\"editor-swatch-label\">Blue Green Gradient V2<\/span>"
+                    },
+                    "default_value": "is-bg--white",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_600207111eb76",
+                    "label": "Text Color",
+                    "name": "text",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "acf-swatch-select",
+                        "id": ""
+                    },
+                    "choices": {
+                        "is-text--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                        "is-text--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                        "is-text--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                        "is-text--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                        "is-text--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                        "is-text--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                        "is-text--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                        "is-text--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                        "is-text--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                        "is-text--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                        "is-text--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                        "is-text--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                        "is-text--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                        "is-text--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                        "is-text--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                        "is-text--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                        "is-text--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                        "is-text--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "is-text--blue-30",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6002093fc2888",
+                    "label": "Top Spacing",
+                    "name": "top",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "is-top--na": "N\/A",
+                        "is-top--xs": "XS",
+                        "is-top--sm": "SM",
+                        "is-top--md": "MD",
+                        "is-top--lg": "LG",
+                        "is-top--xl": "XL",
+                        "is-top--xxl": "XXL"
+                    },
+                    "allow_null": 0,
+                    "default_value": "is-top--md",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_60020995c2889",
+                    "label": "Bottom Spacing",
+                    "name": "bottom",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "is-bottom--na": "N\/A",
+                        "is-bottom--xs": "XS",
+                        "is-bottom--sm": "SM",
+                        "is-bottom--md": "MD",
+                        "is-bottom--lg": "LG",
+                        "is-bottom--xl": "XL",
+                        "is-bottom--xxl": "XXL"
+                    },
+                    "allow_null": 0,
+                    "default_value": "is-bottom--md",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_6001fa5fcfbfa",
+                    "label": "Container Width",
+                    "name": "width",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "is-xs": "XS",
+                        "is-sm": "SM",
+                        "is-default": "MD",
+                        "is-lg": "LG",
+                        "is-fluid": "FULL"
+                    },
+                    "allow_null": 0,
+                    "default_value": "is-default",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 20,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1668342834
+}

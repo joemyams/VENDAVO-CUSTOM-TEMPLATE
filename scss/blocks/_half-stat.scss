@@ -1,0 +1,224 @@
+.stat__num {
+  font-size: 4rem;
+}
+.stat__headline {
+  font-size: 1.675rem;
+  max-width: 300px;
+  margin: 0.5rem auto 0 auto;
+}
+.stat__subheadline {
+  font-size: 1.05rem;
+  font-weight: 500;
+  max-width: 300px;
+  margin: 0.25rem auto 0 auto;
+}
+.half-stat__image {
+  width: 100%;
+  padding-bottom: 60%;
+  // margin-bottom: 3rem;
+  background: var(--ltGray);
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+}
+div.has-image {
+  &.is-reverse {
+    .stat-container {
+      right: auto;
+      left: 0;
+    }
+    .half--stat {
+      padding-left: 6rem !important;
+    }
+    .stat {
+      margin-left: 0;
+    }
+    @media screen and (min-width: 1400px) {
+      .half--text {
+        padding-right: 7em;
+      }
+    }
+  }
+  @media screen and (max-width: 991px) {
+    &.is-reverse .half--stat {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding-bottom: 2rem;
+    }
+    &.is-reverse .half-stat__image {
+      margin-bottom: 3rem;
+    }
+    &.is-reverse .stat-container {
+      align-self: flex-end;
+      transform: scale(0.8);
+      transform-origin: bottom right;
+      // right: 0;
+      padding-right: 1rem;
+    }
+    &.is-reverse.multiple-stats .stat-container {
+      position: relative;
+      width: 80%;
+      bottom: 0;
+      margin-left: -80%;
+    }
+    &.is-reverse.multiple-stats .stat {
+      margin-left: auto;
+    }
+  }
+  &.multiple-stats {
+    max-width: 1400px;
+  }
+  .half--stat {
+    position: relative;
+    padding-right: 8rem;
+    align-self: stretch;
+  }
+  .half-stat__inner {
+    height: 100%;
+    display: flex;
+  }
+  .stat-container {
+    position: absolute;
+    bottom: -4rem;
+    z-index: 10;
+
+    right: 5rem;
+  }
+  .stat {
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    text-align: left;
+  }
+  .stat__inner {
+    padding: 1.5em 2em;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  .stat__headline {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .stat__num {
+    font-size: 1.75rem;
+    width: auto;
+  }
+}
+.stat__inner {
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 0 auto 2rem auto;
+}
+@media screen and (min-width: 992px) {
+  .half--stat {
+    padding-right: 4rem;
+  }
+  .stat__inner {
+    padding: 4em 3em;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .block--half-image-half-stat .cont.is-reverse {
+    flex-direction: row-reverse;
+  }
+  .block--half-image-half-stat .cont.is-reverse .half--stat {
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+  .block--half-image-half-stat .cont.is-reverse .stat__inner {
+    margin-right: 0;
+  }
+}
+
+// Multiple Stats
+.multiple-stats {
+  max-width: 1180px;
+  align-items: flex-start !important;
+
+  .half--stat {
+    padding-left: 0 !important;
+  }
+  .stat__inner {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: none;
+    border: 1px solid var(--ltGray);
+  }
+  .stat:last-child .stat__inner {
+    margin-bottom: 0;
+  }
+  .stat__num {
+    margin-right: 1.5rem;
+    font-size: 2.5rem;
+    flex-shrink: 0;
+    width: 120px;
+    text-align: center;
+  }
+  .stat__headline {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+    font-size: 1.5rem;
+  }
+  .stat__subheadline {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: none;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .half--text {
+      padding-right: 5rem;
+    }
+  }
+}
+
+/* No Text
+***************************************************/
+
+.half--stat:last-child {
+  flex-grow: 1;
+  .half-stat__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .stat {
+    width: 32%;
+  }
+  .stat__num {
+    margin: 0 auto;
+    font-size: 3.5rem;
+    width: 100%;
+  }
+
+  .stat__subheadline {
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+  .stat__inner {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Half Image / Half Text
+***************************************************/
+.block--half-image-half-text {
+  .half--image {
+    margin-bottom: 2rem;
+  }
+}

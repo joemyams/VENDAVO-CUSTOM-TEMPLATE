@@ -1,0 +1,146 @@
+/* Theme - Color Palette
+***************************************************/
+:root {
+  --ltGray: #f3f1ef;
+  --dkGray: #292a2a;
+  --green: #00ab00;
+  --blue: #0086cc;
+  --midBlue: #043f70;
+  --navy: #003057;
+  --dkNavy: #002748;
+  --teal1: #24a0b9;
+  --purple1: #736ac7;
+  --pink1: #91215f;
+}
+
+/* Helper Classes
+***************************************************/
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.rel {
+  position: relative;
+}
+.front {
+  position: relative;
+  z-index: 5;
+}
+.image-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.image-fit {
+  @extend .image-fill;
+  object-fit: cover;
+  object-position: center;
+}
+
+@mixin boxShadow {
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+}
+
+@mixin bgClip {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+@mixin tealGradient {
+  background: -o-linear-gradient(88.81deg, #24a0b9 -9.86%, #a1f0f3 112.16%);
+  background: linear-gradient(1.19deg, #24a0b9 -9.86%, #a1f0f3 112.16%);
+}
+
+@mixin purpleGradient {
+  background: -o-linear-gradient(313.14deg, #736ac7 4.34%, #4e4885 96.77%);
+  background: linear-gradient(136.86deg, #736ac7 4.34%, #4e4885 96.77%);
+}
+
+@mixin pinkGradient {
+  background: -o-linear-gradient(88.81deg, #932b64 -9.86%, #ed468d 112.16%);
+  background: linear-gradient(1.19deg, #932b64 -9.86%, #ed468d 112.16%);
+}
+
+@mixin navyGradient {
+  background: -o-linear-gradient(1.19deg, #003057 -9.86%, #3272b2 112.16%);
+  background: linear-gradient(1.19deg, #003057 -9.86%, #3272b2 112.16%);
+}
+
+@mixin blobColor($textColor, $lineColor) {
+  .kicker,
+  .stat-label {
+    color: #{$textColor};
+  }
+  .stat-blob__line {
+    stroke: #{$lineColor};
+  }
+}
+
+/* Block Tweaks - Background Colors
+***************************************************/
+.is-bg--ltGray {
+  background-color: var(--ltGray);
+}
+.is-bg--blue {
+  background-color: var(--blue);
+}
+.is-bg--dkGray {
+  background-color: var(--dkGray);
+  color: #fff;
+}
+.is-bg--navy {
+  background-color: var(--navy);
+  color: #fff;
+}
+.is-bg--dkNavy {
+  background-color: var(--dkNavy);
+  color: #fff;
+}
+
+/* Block Tweaks - Spacing
+***************************************************/
+.is-top--na {
+  padding-top: 0;
+}
+.is-top--xs {
+  padding-top: 1em;
+}
+.is-top--sm {
+  padding-top: 2em;
+}
+.is-top--md {
+  padding-top: 4em;
+}
+.is-top--lg {
+  padding-top: 6em;
+}
+.is-top--xl {
+  padding-top: 8em;
+}
+.is-bottom--na {
+  padding-bottom: 0;
+}
+.is-bottom--xs {
+  padding-bottom: 1em;
+}
+.is-bottom--sm {
+  padding-bottom: 2em;
+}
+.is-bottom--md {
+  padding-bottom: 4em;
+}
+.is-bottom--lg {
+  padding-bottom: 6em;
+}
+.is-bottom--xl {
+  padding-bottom: 8em;
+}

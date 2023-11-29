@@ -1,0 +1,78 @@
+.block--stat-cards {
+  .half-image__stat {
+    height: 100%;
+    border-radius: 30px;
+  }
+  .cont {
+    justify-content: center;
+  }
+}
+
+.stat-grid__card {
+  @include lg-up {
+    width: 33.3333%;
+    padding: 0.5rem;
+  }
+}
+.stat-grid__card .stat-desc {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.stat-number--scale {
+  font-weight: 700;
+  line-height: 0.85;
+
+  letter-spacing: -0.04rem;
+
+  &.is-teal {
+    background: var(--gradient-Teal);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  &.is-green {
+    background: var(--gradient-Green);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  &.is-purple {
+    background: var(--gradient-Purple);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  &.is-pink {
+    background: var(--gradient-Pink);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  &.is-navy {
+    background: var(--gradient-Navy);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+}
+.stat-number--scale::after,
+.stat-number--scale::before {
+  font-size: 50%;
+  vertical-align: top;
+  margin-top: 1.5%;
+  display: inline-block;
+}
+
+.stat-number--scale::before {
+  content: attr(data-prepend);
+  margin-right: 3px;
+}
+.stat-number--scale::after {
+  content: attr(data-append);
+}

@@ -1,0 +1,124 @@
+/* Type
+**
+**  font-family: 'Manrope', sans-serif;
+**  Regular: 400
+**  Medium: 500
+**  Semibold: 600
+**  Bold: 700
+**
+***************************************************/
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4,.h5,.h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 sup,
+h2 sup,
+h3 sup {
+  font-size: 50%;
+  margin-left: -3px;
+}
+
+h1,
+.h1 {
+  font-size: 2.875em;
+  line-height: 1.1;
+  @media screen and (min-width: 768px) {
+    font-size: 3.75em;
+  }
+}
+h2,
+.h2 {
+  font-size: 2.875em;
+}
+h3,
+.h3 {
+  font-size: 2.124em;
+}
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+h6,
+.h6 {
+  font-size: 1.1rem;
+}
+.kicker {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08rem;
+}
+.kicker:not(:last-child) {
+  margin-bottom: 0.675rem;
+}
+p,
+ul {
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0;
+}
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+a:visited {
+  text-decoration: none;
+}
+li,
+blockquote p {
+  font-size: inherit;
+}
+
+/* RTE Type
+***************************************************/
+.rte h1:not(:last-child),
+.rte h2:not(:last-child),
+.rte h3:not(:last-child),
+.rte h4:not(:last-child),
+.rte h5:not(:last-child),
+.rte h6:not(:last-child),
+.rte li:not(:last-child),
+.rte ul:not(:last-child),
+.rte ol:not(:last-child),
+.rte p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.rte h2 {
+  font-size: 2rem;
+}
+.rte ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 1.25rem;
+}
+.rte li {
+  position: relative;
+}
+.rte li > ul {
+  margin-top: 1rem;
+}
+
+.rte ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-image: url(../img/play-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 7px;
+  left: -1.25rem;
+}

@@ -1,0 +1,112 @@
+.block--challenges-v2 {
+  position: relative;
+  .tab-pane {
+    padding-top: 2rem;
+  }
+  .tab-link {
+    font-weight: 800;
+    font-size: 2rem;
+    padding: .5rem 0;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 6px;
+      background: #248088;
+      width: 100%;
+      transform-origin: 0 50%;
+      transform: scaleX(0);
+      transition: transform .35s ease-in-out;
+    }
+    &.active, &:hover {
+      &:before {
+        transform: scaleX(1);
+      }
+    }
+  }
+  .svg__shape-left {
+    left: -13vw;
+    bottom: -14vw;
+    width: 38vw;
+    > .inner {
+      padding-bottom: 88.7708%;
+      background-size: contain !important;
+    }
+  }
+  .chout-card__inner {
+    background: linear-gradient(90deg, #4693AC 0%, #7DBA4E 100%);
+    border-radius: 35px;
+  }
+  .chout-card__left, .chout-card__right {
+    color: var(--white);
+  }
+  .chout-card__column {
+    padding: 2.5rem 1.5rem;
+  }
+  .chout-card__right {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      border: 18px solid var(--white);
+      border-radius: 54px;
+      opacity: 0.49;
+      z-index: 0;
+    }
+  }
+  .chout-card__right .chout-card__column {
+    border-radius: 54px;
+    border: 0;
+    background: transparent;
+  }
+  .chout-card__headline {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+  .chout-card__sidebar {
+    background: var(--blue-90-V2);
+  }
+}
+
+@media (max-width: 991px) {
+  .block--challenges-v2 {
+    .chout-card__right {
+      &:before {
+        border: 9px solid var(--white);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .block--challenges-v2 {
+    .tab-link {
+      font-size: 1.75rem;
+
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .block--challenges-v2 {
+    .tab-link {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .block--challenges-v2 {
+    .chout-card__right {
+      .chout-card__column {
+        padding: 2.5rem 3rem;
+      }
+    }
+  }
+}

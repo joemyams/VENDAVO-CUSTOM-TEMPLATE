@@ -1,0 +1,199 @@
+{
+    "key": "group_6003c3760a2fe",
+    "title": "Block - Testimonial",
+    "fields": [
+        {
+            "key": "field_6003c3760edde",
+            "label": "Quote",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6003c3760ede8",
+            "label": "",
+            "name": "block_quote",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "sub_fields": [
+                {
+                    "key": "field_6003c4a0a54f9",
+                    "label": "Text",
+                    "name": "text",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6003c391d71da",
+                            "label": "Use Quote from Quote Library?",
+                            "name": "use_library",
+                            "type": "true_false",
+                            "instructions": "You can find, edit, and add to the quote library by clicking <a target=\"_blank\" href=\"\/wp-admin\/edit.php?post_type=quotes\">here<\/a>.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 1,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_6003c3e2d71db",
+                            "label": "Quote",
+                            "name": "quote_cpt",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6003c391d71da",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "quotes"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "id",
+                            "ui": 1
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6003c4b7a54fa",
+                    "label": "Design",
+                    "name": "design",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "is-sidebar",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60048a05ac499",
+                            "label": "Show Quote Icon",
+                            "name": "icon",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 1,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_60048a19ac49a",
+                            "label": "Icon Color",
+                            "name": "icon_color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "acf-swatch-select",
+                                "id": ""
+                            },
+                            "choices": {
+                                "is-fill--white": "<span class=\"editor-swatch is-bg--white\"><\/span><span class=\"editor-swatch-label\">White<\/span>",
+                                "is-fill--gray-10": "<span class=\"editor-swatch is-bg--gray-10\"><\/span> <span class=\"editor-swatch-label\">Gray 10<\/span>",
+                                "is-fill--gray-20": "<span class=\"editor-swatch is-bg--gray-20\"><\/span> <span class=\"editor-swatch-label\">Gray 20<\/span>",
+                                "is-fill--gray-30": "<span class=\"editor-swatch is-bg--gray-30\"><\/span> <span class=\"editor-swatch-label\">Gray 30<\/span>",
+                                "is-fill--gray-40": "<span class=\"editor-swatch is-bg--gray-40\"><\/span> <span class=\"editor-swatch-label\">Gray 40<\/span>",
+                                "is-fill--green-10": "<span class=\"editor-swatch is-bg--green-10\"><\/span> <span class=\"editor-swatch-label\">Green 10<\/span>",
+                                "is-fill--green-20": "<span class=\"editor-swatch is-bg--green-20\"><\/span> <span class=\"editor-swatch-label\">Green 20<\/span>",
+                                "is-fill--purple-10": "<span class=\"editor-swatch is-bg--purple-10\"><\/span> <span class=\"editor-swatch-label\">Purple 10<\/span>",
+                                "is-fill--purple-20": "<span class=\"editor-swatch is-bg--purple-20\"><\/span> <span class=\"editor-swatch-label\">Purple 20<\/span>",
+                                "is-fill--yellow-10": "<span class=\"editor-swatch is-bg--yellow-10\"><\/span> <span class=\"editor-swatch-label\">Yellow 10<\/span>",
+                                "is-fill--yellow-20": "<span class=\"editor-swatch is-bg--yellow-20\"><\/span> <span class=\"editor-swatch-label\">Yellow 20<\/span>",
+                                "is-fill--pink-10": "<span class=\"editor-swatch is-bg--pink-10\"><\/span> <span class=\"editor-swatch-label\">Pink 10<\/span>",
+                                "is-fill--pink-20": "<span class=\"editor-swatch is-bg--pink-20\"><\/span> <span class=\"editor-swatch-label\">Pink 20<\/span>",
+                                "is-fill--teal-10": "<span class=\"editor-swatch is-bg--teal-10\"><\/span> <span class=\"editor-swatch-label\">Teal 10<\/span>",
+                                "is-fill--teal-20": "<span class=\"editor-swatch is-bg--teal-20\"><\/span> <span class=\"editor-swatch-label\">Teal 20<\/span>",
+                                "is-fill--blue-10": "<span class=\"editor-swatch is-bg--blue-10\"><\/span> <span class=\"editor-swatch-label\">Blue 10<\/span>",
+                                "is-fill--blue-20": "<span class=\"editor-swatch is-bg--blue-20\"><\/span> <span class=\"editor-swatch-label\">Blue 20<\/span>",
+                                "is-fill--blue-30": "<span class=\"editor-swatch is-bg--blue-30\"><\/span> <span class=\"editor-swatch-label\">Blue 30<\/span>"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "is-fill--blue-10",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/testimonial"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1611327478
+}

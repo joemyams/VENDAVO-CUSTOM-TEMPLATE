@@ -1,0 +1,1 @@
+<?php echo acfImgOutput($images['main_image'], 'image-fit', 'half-image__aspect'); ?>

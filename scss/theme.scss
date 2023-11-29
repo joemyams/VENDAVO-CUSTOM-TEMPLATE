@@ -1,0 +1,29 @@
+/* prettier-ignore */
+@import  "./vendor/reboot",
+"./vendor/a11y",
+"./vendor/slick",
+"./vendor/fancybox",
+"./vendor/micromodal",
+"./vendor/bootstrap",
+"./design-system",
+"./globals/header",
+"./globals/footer",
+'./components/tabs',
+'./components/filter-buttons',
+'./components/content-card',
+"./layouts/blog",
+"./layouts/events",
+"./layouts/resources",
+"./layouts/calculators",
+"./layouts/quiz-pdf",
+"./layouts/quiz-graphs",
+"./layouts/glossary",
+"./layouts/partners",
+"./blocks";
+
+/*
+@import "./../node_modules/bootstrap/scss/functions";
+@import "./globals/variables";
+// @import "./../node_modules/bootstrap/scss/bootstrap";
+@import "./globals/bootstrap";
+*/

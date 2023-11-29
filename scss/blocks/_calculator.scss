@@ -1,0 +1,416 @@
+.block--comex-survey {
+  .form-headline__inner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+  }
+  .gfield_required {
+    display: none;
+  }
+  .cont {
+    max-width: 1340px;
+  }
+  /* Progress Bar
+  ***************************************************/
+
+  .gform_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .gform_wrapper .gf_progressbar {
+    box-shadow: none !important;
+    border-radius: 4px;
+  }
+  .gform_wrapper .gf_progressbar:after,
+  .gform_wrapper .gf_progressbar_percentage {
+    border-radius: 0;
+    box-shadow: none !important;
+  }
+  .gform_wrapper .gf_progressbar:after,
+  .gform_wrapper .gf_progressbar_percentage {
+    height: 4px;
+  }
+  .gform_wrapper .top_label .gfield_label,
+  .gform_wrapper legend.gfield_label {
+    font-size: 20px;
+  }
+  .gform_wrapper .gf_progressbar_percentage span {
+    margin-top: -25px;
+    color: var(--blue-20);
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .gform_wrapper ul.gform_fields li.gfield:not(:first-child) {
+    margin-top: 2.5rem;
+  }
+  .gform_wrapper .gf_progressbar_percentage.percentbar_0 span {
+    float: left !important;
+  }
+  .gform_wrapper .gf_progressbar:after {
+    box-shadow: none !important;
+    margin-top: -4px;
+  }
+  .gform_wrapper .gf_progressbar_percentage {
+    background: var(--gradient-Blue) !important;
+  }
+  .gform_wrapper .gf_progressbar {
+    border-radius: var(--radius-MD);
+    background-color: transparent;
+    height: 4px;
+    padding: 0;
+    border: none;
+  }
+  /* Section Titles
+  ***************************************************/
+  .gform_wrapper .gsection {
+    border: none;
+    background-color: var(--gray-10);
+    width: 100%;
+    margin: 0;
+    padding: 1.25rem;
+
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .gform_wrapper .gf_progressbar_wrapper {
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  .gf_progressbar_title {
+    border: none;
+    @extend .kicker;
+    font-size: 13px;
+    letter-spacing: 0.02rem !important;
+    font-weight: 700 !important;
+  }
+  .gform_wrapper .top_label .gsection_description {
+    margin-bottom: 0;
+    margin-top: 4px;
+  }
+
+  .gform_wrapper h2.gsection_title {
+    font-size: 1.5rem;
+  }
+
+  .gform_wrapper .gf_progressbar_wrapper h3.gf_progressbar_title {
+    background-color: var(--blue-20);
+    color: #fff;
+    padding: 0.5rem 1rem !important;
+    font-size: 10px !important;
+    letter-spacing: 0.08rem !important;
+    border-top-left-radius: 4px;
+    opacity: 1 !important;
+    margin: 0 !important;
+    white-space: nowrap;
+  }
+
+  /* Radio Fields
+  ***************************************************/
+  
+  .gform_wrapper .top_label li ul.gfield_radio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // padding-left: 4rem;
+  }
+  .gform_wrapper ul.gfield_radio li {
+    overflow: visible;
+    position: relative;
+  }
+  .gform_wrapper ul.gform_fields li.gfield input[type="radio"] {
+    @extend .absolute-fill;
+    width: 100% !important;
+    margin: 0 !important;
+    opacity: 0;
+    &:checked {
+      + label {
+        box-shadow: var(--dropShadow-20) !important;
+      }
+      + label::before {
+        content: "";
+        background-color: var(--green-10);
+        background-image: url(../img/check-icon.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-color: var(--green-10);
+        color: #fff;
+      }
+    }
+  }
+  // Radio Field - Label
+  .gform_wrapper ul.gfield_radio li label {
+    border: 2px solid var(--gray-10);
+    border-radius: 7px;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem 1rem 1rem 3.75rem;
+    font-weight: 700;
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    &::before {
+      content: "";
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 24px;
+      height: 24px;
+      background-color: #fff;
+      border: 2px solid var(--gray-10);
+      position: absolute;
+      line-height: 1.4;
+      top: 50%;
+      border-radius: 3px;
+      transform: translateY(-50%);
+      left: 1.25rem;
+    }
+  }
+
+
+  .gfield.gf_comex_radio_half li {
+    width: 100%;
+    
+    @include xl-up {
+      width: 49.6% !important;
+
+    }
+  }
+
+  .gfield.gf_comex_radio_fourth li {
+    width: 48%;
+    @include xl-up {
+
+      width: 24% !important;
+    }
+  }
+
+  .gfield.gf_comex_radio_full li {
+    width: 100% !important;
+  }
+  .gform_wrapper ul.gfield_radio li label span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  /* Form Footer
+  ***************************************************/
+
+  .gform_wrapper .gform_page_footer {
+    border: none;
+    text-align: center;
+  }
+  /* Buttons
+  ***************************************************/
+  .gform_previous_button.button {
+    @extend .btn;
+    @extend .btn--primary;
+    border: none;
+    float: left;
+  }
+  .gform_button.button,
+  .gform_next_button.button {
+    @extend .btn;
+    @extend .btn--primary;
+    @extend .is-green;
+    float: right;
+    &:first-child {
+      float: none;
+      margin: 0 auto;
+      display: inline-block;
+    }
+  }
+  /* Confirmation Message
+  ***************************************************/
+  .gform_confirmation_message {
+    padding: 2rem !important;
+    br {
+      display: none;
+    }
+    img {
+      margin: 0 auto 1.5rem auto !important;
+      width: 120px;
+      height: auto;
+      display: block;
+    }
+    .btn {
+      margin-top: 2rem;
+    }
+    h1 {
+      font-weight: 600 !important;
+    }
+    h4 {
+      margin-bottom: 1rem;
+    }
+    p.kicker {
+      margin-bottom: 0;
+      font-weight: 600;
+    }
+    p {
+      max-width: 570px;
+      margin: 0 auto 1rem auto;
+      line-height: 1.4;
+    }
+  }
+}
+.block--comex-survey .half--form-headline {
+  h1.h3 {
+    line-height: 1.2;
+  }
+  h6 {
+    font-size: 14px;
+    margin-top: 1.25rem;
+  }
+  @include lg-up {
+    max-width: 400px;
+  }
+  @include xl-up {
+    max-width: 450px;
+  }
+}
+.block--comex-survey .half--multistep-form {
+  @include lg-up {
+    flex-grow: 1;
+    padding-left: 6rem;
+  }
+}
+
+.block--comex-survey .form-headline__inner {
+  padding: 2rem;
+  border-radius: var(--radius-MD);
+  box-shadow: var(--dropShadow-20);
+  margin-bottom: 2rem;
+  @include md-up {
+    .form-headline__text {
+      padding-left: 2rem;
+    }
+    display: flex;
+    align-items: center;
+  }
+  @include lg-up {
+    display: block;
+    .form-headline__text {
+      padding-left: 0;
+    }
+  }
+  @include xl-up {
+    padding: 2rem 3rem 3rem 3rem;
+
+  }
+}
+
+
+.gform_page.access-report-page .gform_fields {
+  padding: 4rem !important;
+  background-color: var(--gray-10) !important;
+  .ginput_container_select select {
+    padding: 5px 4px !important;
+  }
+  .gform_wrapper
+  .field_sublabel_hidden_label
+  .ginput_complex.ginput_container
+  input[type="text"],
+  .gform_wrapper
+  .field_sublabel_hidden_label
+  .ginput_complex.ginput_container
+  select {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .ginput_complex.ginput_container input[type="text"] {
+    margin-bottom: 0 !important;
+  }
+  li.hidden_label input,
+  .top_label div.ginput_container,
+  li.gfield:not(:first-child) {
+    margin-top: 0 !important;
+  }
+}
+.gf_comex_result_preview {
+  padding: 4rem !important;
+  .gsection_title {
+    font-size: 2.75rem !important;
+    margin-bottom: 25px !important;
+    text-align: center;
+  }
+  .gsection_description {
+    font-size: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: 0;
+  }
+}
+
+.gf_comex_result_preview:first-child {
+  padding: 0 0 1.5rem 0 !important;
+  text-align: center !important;
+}
+
+
+.comex-survey__headline {
+  @media screen and (max-width: 1199px) {
+    font-size: 1.85rem;
+  }
+}
+
+
+.comex-survey__img {
+  margin-bottom: 2rem; 
+  max-width: 300px;
+}
+.block--comex-survey  {
+  .gf_dev-field {
+    display: none !important;
+  }
+  @media screen and (max-width: 991px) {
+    .form-headline__inner {
+      padding: 2rem;
+    }
+  }
+  .gf_comex_result_preview {
+    display: none !important;
+  }
+
+
+}
+
+.form-result__inner {
+  .category-scale .scale-label {
+    font-size: 8px;
+  }
+  .gsection_title {
+    font-size: 28px;
+    margin-top: 2rem;
+  }
+  .gsection_description {
+    font-size: .813em
+  }
+  &.is-stage-1 {
+    .gsection_title {
+      color: var(--purple-10);
+    }
+  }
+  &.is-stage-2 {
+    .gsection_title {
+      color: var(--blue-10);
+    }
+  }
+  &.is-stage-3 {
+    .gsection_title {
+      color: var(--yellow-10);
+    }
+  }
+  &.is-stage-4 {
+    .gsection_title {
+      color: var(--green-10);
+    }
+  }
+}

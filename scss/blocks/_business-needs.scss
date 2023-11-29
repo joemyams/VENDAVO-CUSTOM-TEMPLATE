@@ -1,0 +1,95 @@
+.needs-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.needs-header {
+  margin-bottom: 2rem;
+}
+
+.needs-card {
+  padding: 0.5rem;
+  width: 100%;
+  @include sm-up {
+    width: 50%;
+  }
+  @include lg-up {
+    width: 25%;
+  }
+}
+
+.needs-card__inner {
+  border-radius: var(--radius-SM);
+  background: var(--gradient-Navy);
+  padding: 2rem 1.5rem;
+  height: 100%;
+  color: #fff !important;
+  @include flexCenterCol;
+  position: relative;
+}
+.needs-card__headline {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #fff !important;
+  font-weight: 500 !important;
+  padding-bottom: 0;
+  transition: 300ms ease opacity, 300ms ease transform;
+}
+
+.needs-card__subheadline {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.needs-card__button,
+.needs-card__hover {
+  opacity: 1;
+}
+// Desktop Hover State
+
+@include lg-up {
+  .needs-card__headline {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+  }
+
+  .needs-card__hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-SM);
+    transition: 500ms ease opacity;
+  }
+  .needs-card__inner {
+    min-height: 120px;
+  }
+  .needs-card__button {
+    box-shadow: var(--dropShadow-20);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 500ms ease transform, 300ms ease opacity;
+  }
+  .needs-card__inner:hover {
+    .needs-card__headline {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: 300ms ease opacity, 500ms ease transform;
+    }
+    .needs-card__hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+    .needs-card__button {
+      opacity: 1;
+      transform: translateY(0);
+      transition: 500ms ease transform, 300ms ease opacity;
+    }
+  }
+}

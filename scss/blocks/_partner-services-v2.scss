@@ -1,0 +1,30 @@
+.block--partner-services-v2 {
+  position: relative;
+  .cont {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  @include lg-up {
+    min-height: 40rem;
+  }
+  .block-bg__imgV2 {
+    background-position: top center !important;
+  }
+  .block-bg__img-right {
+    background-size: contain !important;
+    width: 100%;
+    padding-bottom: 15rem;
+    margin-top: 1.25rem;
+    position: relative;
+    background-position: bottom right !important;
+    @include lg-up {
+      margin-top: 0;
+      position: absolute;
+      width: 50%;
+      right: 0;
+      padding-bottom: 25rem;
+      bottom: 0;
+
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+    "key": "group_60d318f443803",
+    "title": "Popup",
+    "fields": [
+        {
+            "key": "field_60d319038d5df",
+            "label": "Show Popup?",
+            "name": "has_popup",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_60d31a24329c3",
+            "label": "Popup Duration",
+            "name": "popup_duration",
+            "type": "number",
+            "instructions": "Use this field to alter how often\/long it takes before the popup shows again. A cookie (\"vendavo_popup\") is set with an expiration date based on this field.\r\n0 - Sets the cookie to be a Session cookie.\r\n0.5 - Sets the cookie to expire after 30minutest (1\/2 hour).\r\n1 - Sets the cookie to expire after 1 hour.\r\n2 - Sets the cookie to expire after 2 hours.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60d319038d5df",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_60d319668d5e1",
+            "label": "Popup Form ID",
+            "name": "popup_form_id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60d319038d5df",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1694,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60d3197c8d5e2",
+            "label": "Popup Content",
+            "name": "popup_content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60d319038d5df",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<h6 class=\"font-size-h3 is-text--blue-30 font-weight-bold\">Subscribe to our newsletter<\/h6><p>Stay up to date with the latest news<\/p>",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_610bfefce4430",
+            "label": "Disable on Pages & Posts",
+            "name": "popup_disable_on_pages",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60d319038d5df",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post",
+                "page"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "elements": [
+                "featured_image"
+            ],
+            "min": "",
+            "max": "",
+            "return_format": "id"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-popup"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1628176385
+}

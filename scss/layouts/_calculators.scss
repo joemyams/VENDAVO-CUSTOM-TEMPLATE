@@ -1,0 +1,98 @@
+.cpq-calc {
+  .value {
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -0.05rem;
+    text-align: center;
+    line-height: 1;
+    color: var(--green-20);
+  }
+  .half--graph .download-report {
+    background-color: var(--gray-10);
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .slidecontainer {
+    margin-top: 1rem;
+  }
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 0;
+    background: #d3d3d3;
+    outline: 0;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+}
+
+.slider-form .form-group {
+  margin-top: 4rem;
+  margin-bottom: 0;
+  position: relative;
+  text-align: right;
+  .cstm-label {
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+  }
+  &:first-child {
+    margin-top: 1rem;
+  }
+}
+@include lg-up {
+  .cpq-calc .half--header {
+    padding-right: 6rem;
+  }
+}
+.cpq-calc .half--graph {
+  box-shadow: var(--dropShadow-20);
+  border-radius: var(--radius-MD);
+  // padding: 2.5rem;
+  .graph-widget {
+    padding-top: 2.5rem;
+  }
+  .graph-detail {
+    padding: 2rem 2.5rem 1rem 2.5rem;
+  }
+}
+
+.cpq-calc .annual-form {
+  background-color: var(--gray-10);
+  border-radius: var(--radius-MD);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+
+  > div {
+    width: 48%;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+  .form-group {
+    margin-bottom: 0;
+  }
+  .cstm-label {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    div:last-child {
+      margin-left: 10px;
+    }
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vendavo_calc-field {
+  display: none !important;
+}

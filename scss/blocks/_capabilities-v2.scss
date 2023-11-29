@@ -1,0 +1,163 @@
+.block--capabilities-v2 {
+  position: relative;
+  &.has__bg-img {
+    > .cont {
+      padding-top: 120px;
+    }
+  }
+  .block-bg__imgV2 {
+    background-position: top center !important;
+  }
+  .svg__shape-right {
+    right: -3vw;
+    top: -5vw;
+    width: 25vw;
+    > .inner {
+      padding-bottom: 177.5768%;
+    }
+  }
+}
+
+.modal__gray-backdrop {
+  .modal-backdrop.show {
+    opacity: 0.8;
+    background: #d9e9ea;
+  }
+}
+
+.nav__with-lines {
+  .nav-link {
+    font-weight: 800;
+    font-size: 2rem;
+    padding: .5rem 0;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 6px;
+      background: #248088;
+      width: 100%;
+      transform-origin: 0 50%;
+      transform: scaleX(0);
+      transition: transform .35s ease-in-out;
+    }
+    &.active, &:hover {
+      &:before {
+        transform: scaleX(1);
+      }
+    }
+  }
+}
+
+.card-capability {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 35px;
+  background-color: rgba(255, 255, 255, 0.61);
+  border: 0;
+  color: #023156;
+  text-align: left;
+  min-height: 15rem;
+  transition: all .35s ease-in-out;
+  &:hover, &:focus {
+    outline: none;
+    border: 0;
+  }
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .card-body {
+    padding: 4rem 2rem;
+  }
+  .card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  .card__icon-plus {
+    right: 15px;
+    bottom: 15px;
+  }
+}
+
+
+
+.svg__icon-plus {
+  box-shadow: 0px 4px 5px #00000024;
+  border-radius: 28px;
+  background: var(--white);
+  padding: 5px;
+  svg path {
+    fill: #238087;
+  }
+}
+
+.btn-close {
+  background: transparent;
+  border: 0;
+  outline: none;
+  &:hover, &:focus {
+    outline: none;
+    border: 0;
+  }
+  .svg__icon-plus {
+    svg {
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.modal__popup {
+  .modal-header {
+    padding-bottom: 0;
+  }
+  .modal-body, .modal-header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .modal-header {
+    padding-right: 1rem;
+  }
+  .modal-content {
+    padding-bottom: 3rem;
+  }
+  .modal__headline {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  .modal__text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-capability {
+    min-height: 17rem;
+  }
+  .block--capabilities-v2 {
+    .nav__with-lines {
+      &.items-3 {
+        .nav-item {
+          flex: 0 0 33.333333%;
+          max-width: 33.333333%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .block--capabilities-v2 {
+    .nav-link {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .block--capabilities-v2 {
+    .nav-link {
+      font-size: 1.5rem;
+    }
+  }
+}

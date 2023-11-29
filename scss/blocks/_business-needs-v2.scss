@@ -1,0 +1,121 @@
+.block--business-needs-v2 {
+  position: relative;
+  z-index: 5;
+  .dropdown__container {
+    background: #FFF;
+    box-shadow: 0px 3px 45px #00000029;
+    border-radius: 21px;
+    padding: 1.5rem 2rem;
+  }
+  
+  .tab-pane .btn {
+    border-radius: 12px;
+  }
+  .svg__image {
+    position: absolute;
+    left: -210px;
+    bottom: -130px;
+    width: 600px;
+    height: 600px;
+    z-index: 4;
+    pointer-events: none;
+    background-size: contain !important;
+  }
+}
+
+.dropdown__global {
+  .dropdown-menu {
+    border-color: #023156;
+    &.show {
+      width: 100%;
+    }
+  }
+  .dropdown-toggle {
+    border: 0;
+    background: #FFF;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #023156;
+      border-radius: 3px;
+      z-index: 0;
+    }
+    &:after {
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      border-top: 0.4em solid #248088;
+      border-right: 0.4em solid transparent;
+      border-bottom: 0;
+      border-left: 0.4em solid transparent;
+    }
+  }
+  .nav-link {
+    padding: 0.5rem 1.5rem;
+    display: block;
+    &:hover, &.active {
+      color: var(--blue-20);
+    }
+  }
+}
+
+.business-needs__bottom {
+  &:before {
+    content: "";
+    background: linear-gradient(90deg, #479C30 0%, #248088 100%);
+    opacity: 0.17;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .block--business-needs-v2 {
+    .dropdown {
+      width: calc(100% - 14rem);
+      margin-right: 1rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .block--business-needs-v2 {
+    .centered-text__inner {
+      margin-left: 50%;
+      margin-right: 4rem;
+    }
+    .half-text__subheadline {
+      font-size: 2rem;
+    }
+    .dropdown__container {
+      margin-left: 7rem;
+      padding-left: 5rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .block--business-needs-v2 {
+    .dropdown {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+    .block--business-needs-v2 {
+      .dropdown__headline {
+        font-size: 1.5rem;
+      }
+    }
+}

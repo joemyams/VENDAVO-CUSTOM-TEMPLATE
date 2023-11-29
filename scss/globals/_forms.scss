@@ -1,0 +1,118 @@
+// Wrap in selectors to increase specificity & override Gravity Forms default styles
+body section .gform_wrapper {
+  margin: 0;
+  padding: 0;
+
+  li.hidden_label input {
+    margin-top: 0 !important;
+  }
+  /* Input styles
+  ***************************************************/
+  textarea,
+  input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]) {
+    border: 2px solid var(--ltGray);
+    padding: 1em;
+    font-size: 16px;
+    border-radius: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &:focus {
+      border-color: var(--green);
+      outline: none;
+    }
+  }
+  /* Text Area
+  ***************************************************/
+  li.gfield.gfield_error.gfield_contains_required div.ginput_container {
+    line-height: 0;
+  }
+  textarea {
+    line-height: 1.5;
+  }
+  /* Submit Button
+  ***************************************************/
+  .gform_footer input.button,
+  .gform_footer input[type="submit"],
+  .gform_page_footer input.button,
+  .gform_page_footer input[type="submit"] {
+    @extend .btn;
+    @extend .btn--primary;
+    margin: 0;
+    cursor: pointer;
+  }
+  .gform_wrapper .gform_footer {
+    text-align: center;
+    padding-bottom: 0 !important;
+    img {
+      display: block;
+      margin: 1em auto 0 auto;
+    }
+  }
+  /* Error Styles
+  ***************************************************/
+  li.gfield.gfield_error,
+  li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: transparent;
+    border: none;
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  div.validation_error {
+    background-color: var(--ltGray);
+    border-radius: 7px;
+    border: none;
+    padding: 1.5rem 1rem;
+    color: var(--navy);
+  }
+  .field_description_below .gfield_description {
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-size: 11px;
+  }
+  /* Spacing Overrides
+  ***************************************************/
+
+  .field_sublabel_hidden_label .ginput_complex.ginput_container {
+    input[type="text"],
+    select,
+    li.hidden_label input,
+    ul li.gfield {
+      margin: 0;
+    }
+  }
+
+  ul li.gfield {
+    margin-top: 16px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .top_label {
+    div.ginput_container,
+    li.gfield.gf_left_half
+      .ginput_container:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm):not(.ginput_container_date):not(.ginput_quantity):not(.datepicker):not(.gfield_signature_container),
+    li.gfield.gf_right_half
+      .ginput_container:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm):not(.ginput_container_date):not(.ginput_quantity):not(.datepicker):not(.gfield_signature_container) {
+      margin-top: 0;
+    }
+    div.ginput_complex.ginput_container.gf_name_has_1,
+    div.ginput_complex.ginput_container.gf_name_has_2,
+    div.ginput_complex.ginput_container.gf_name_has_3 {
+      width: 100%;
+    }
+  }
+  div.ginput_container_name span:last-child,
+  .top_label li.gfield.gf_right_half,
+  ul.gform_fields li.gfield {
+    padding-right: 0;
+  }
+  /* Hide Labels & Instructions
+  ***************************************************/
+  li.gfield.gfield_error.gfield_contains_required.hidden_label
+    label.gfield_label,
+  .instruction {
+    display: none;
+  }
+}

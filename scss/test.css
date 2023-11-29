@@ -1,0 +1,214 @@
+.speaker__header {
+  padding: 1rem 3rem 1rem 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+.speaker__header > div {
+  position: relative;
+  z-index: 15;
+}
+.speaker__header::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  border-bottom-right-radius: 30px;
+  transform: skewX(-25deg);
+  transform-origin: top right;
+  background-color: var(--ltGray);
+}
+.speaker__header .mktoText *:not(:last-child) {
+  margin-bottom: 0.35rem !important;
+}
+.speaker__body {
+  padding: 2rem 3rem;
+}
+.speaker {
+  border: 2px solid var(--ltGray);
+  border-radius: 10px;
+  position: relative;
+  margin-top: 3rem;
+}
+.speaker__image {
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  margin-right: -2rem;
+  border: 8px solid #fff;
+  overflow: hidden;
+}
+
+#mktoEditorPlaceholder {
+  height: auto !important;
+}
+.representative {
+  width: 45%;
+}
+.representative:first-child {
+  margin-bottom: 3rem;
+}
+.representative:last-child {
+  width: 38%;
+  margin-left: -10%;
+}
+.representative p {
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+.representative__image {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 100%;
+  border-radius: 100%;
+  border: 2px solid var(--ltGray);
+  filter: grayscale(1);
+}
+.lp-header__image img,
+.representative__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lp-header__swoop {
+  position: absolute;
+  left: 0;
+  bottom: -2rem;
+  z-index: 2;
+}
+.lp-header .cont {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.form__headline {
+  text-align: center;
+  color: var(--navy);
+}
+.lp-header__form {
+  margin-top: 3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.lp-header__form .form-inner {
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.lp-header__form .mktoForm .mktoRequiredField label.mktoLabel {
+  float: none;
+  display: block;
+  width: 100% !important;
+  margin-bottom: 0.5rem;
+}
+.lp-header__form .mktoForm .mktoGutter,
+.lp-header__form .mktoForm .mktoOffset {
+  width: 0 !important;
+  display: none !important;
+}
+.lp-header__form .mktoButtonRow span {
+  margin: 0 !important;
+}
+.lp-header__form .form-inner form,
+.lp-header__form .mktoButtonRow,
+.lp-header__form .mktoForm input.mktoField,
+.lp-header__form .mktoForm .mktoFormCol {
+  width: 100% !important;
+}
+.lp-header__form .mktoForm .mktoFieldWrap {
+  float: none;
+}
+.mktoForm input[type="text"],
+.mktoForm input[type="url"],
+.mktoForm input[type="email"],
+.mktoForm input[type="tel"],
+.mktoForm input[type="number"],
+.mktoForm input[type="date"],
+.mktoForm select.mktoField,
+.mktoForm textarea.mktoField {
+  border-radius: 7px !important;
+  border: 2px solid var(--ltGray) !important;
+  padding: 0.5rem !important;
+  outline: none;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none !important;
+}
+.lp-header__text h1 {
+  font-size: 3.25rem;
+}
+.lp-header__text p {
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+.lp-header {
+  color: #fff;
+  position: relative;
+  padding-bottom: 4rem;
+}
+.lp-header .cont {
+  align-items: flex-start;
+}
+.representatives {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.lp-header__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  filter: grayscale(1);
+}
+.lp-header::after {
+  content: "";
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background: #fff;
+  /* z-index: 5; */
+  position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  .lp-header__form {
+    width: 40%;
+    margin-top: 0;
+  }
+  .questions__images,
+  .questions__text {
+    width: 50%;
+  }
+  .lp-body__text,
+  .lp-header__text {
+    width: 60%;
+    padding-right: 6rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lp-body__text,
+  .lp-header__text {
+    padding-right: 10rem;
+  }
+}

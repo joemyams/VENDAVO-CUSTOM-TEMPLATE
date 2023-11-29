@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="443" viewBox="0 0 1920 443">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4228" data-name="Rectangle 4228" width="1920" height="443" fill="#fff"/>
+    </clipPath>
+    <filter id="Intersection_1" x="-611.118" y="-47.025" width="3055.484" height="2040.847" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="step-3-test" clip-path="url(#clip-path)">
+    <g id="Step-2-bg" transform="translate(-396.436 -41.026) rotate(7)">
+      <g transform="matrix(0.99, -0.12, 0.12, 0.99, 398.48, -7.59)" filter="url(#Intersection_1)">
+        <path id="Intersection_1-2" data-name="Intersection 1" d="M522.387,1536.094C273.9,1324.383-73.115,735.4,13.587,261.435,76.575-82.928,617.051-51.723,1297.432,151.164c289.959,86.47,511.84,66.053,710.386,45.637,199.57-20.525,375.562-41.051,573.45,46.988,366.811,163.194,344.349,745.163,40.566,1053.968-208.654,212.093-360.559,204.867-562.5,197.64-92.091-3.3-194.582-6.592-317.608,10.911-229.713,32.677-517.9,181.429-800.169,181.417C797.431,1687.718,654.822,1648.927,522.387,1536.094Z" transform="translate(-396.44 -41.03) rotate(7)" fill="#f8f8f8"/>
+      </g>
+    </g>
+  </g>
+</svg>

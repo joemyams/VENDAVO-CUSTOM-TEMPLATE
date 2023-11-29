@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1306" viewBox="0 0 1920 1306">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4123" data-name="Rectangle 4123" width="1920" height="1306" transform="translate(0 2066)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_21843" data-name="Path 21843" d="M708.958,65.531C2089.66,309.062,2100.769,0,2100.769,0V1342.46H13.622S-671.745-178,708.958,65.531Z" transform="translate(-136.769 8542)" fill="#78c34e" stroke="#707070" stroke-width="1" opacity="0.088"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.71" y1="0.5" x2="0.127" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#78c34e"/>
+      <stop offset="1" stop-color="#2ea0b7"/>
+    </linearGradient>
+  </defs>
+  <g id="services-bg" transform="translate(0 -2066)" clip-path="url(#clip-path)">
+    <g id="Services_BG" data-name="Services BG" transform="translate(57.625 -6512.125)" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_4052" data-name="Rectangle 4052" width="2012" height="1496.517" transform="translate(-92 8488.149)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

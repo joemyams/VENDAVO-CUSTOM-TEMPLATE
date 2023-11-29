@@ -1,0 +1,317 @@
+{
+    "key": "group_604bfe302331a",
+    "title": "Website Calculators",
+    "fields": [
+        {
+            "key": "field_604bfe9c996b1",
+            "label": "",
+            "name": "calculators",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_604bfeb4f99f5",
+                    "label": "Commercial Excellence Maturity Assessment",
+                    "name": "vend_comex",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_604bfed2f99f6",
+                            "label": "Wordpress Form ID",
+                            "name": "form_id",
+                            "type": "number",
+                            "instructions": "Wordpress Forms Form ID to display on the page",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_6062515d8fcff",
+                            "label": "Marketo Form ID",
+                            "name": "marketo_id",
+                            "type": "text",
+                            "instructions": "Form to pass info to from Wordpress to Marketo",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "mktoForm_",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_604bfedff99f7",
+                            "label": "PDF Template URL",
+                            "name": "template_url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_606251508fcfe",
+                            "label": "PDF Output Prefix",
+                            "name": "pdf_output_prefix",
+                            "type": "text",
+                            "instructions": "Use only letters, numbers, and underscore. No spaces allowed.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Vendavo_CPQ_Value_Assessment",
+                            "placeholder": "Vendavo_CPQ_Value_Assessment",
+                            "prepend": "",
+                            "append": "_FirstName_LastName_Date.pdf",
+                            "maxlength": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_605d7b6131ccd",
+                    "label": "CPQ Value Assessment",
+                    "name": "vend_cpq",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_605d7b6131cce",
+                            "label": "Wordpress Form ID",
+                            "name": "form_id",
+                            "type": "number",
+                            "instructions": "Wordpress Forms Form ID to display on the page",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_606250466d5e9",
+                            "label": "Marketo Form ID",
+                            "name": "marketo_id",
+                            "type": "text",
+                            "instructions": "Form to pass info to from Wordpress to Marketo",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "mktoForm_",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_605d7b6131ccf",
+                            "label": "PDF Template URL",
+                            "name": "template_url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_605e6b9727413",
+                            "label": "PDF Output Prefix",
+                            "name": "pdf_output_prefix",
+                            "type": "text",
+                            "instructions": "Use only letters, numbers, and underscore. No spaces allowed.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Vendavo_CPQ_Value_Assessment",
+                            "placeholder": "Vendavo_CPQ_Value_Assessment",
+                            "prepend": "",
+                            "append": "_FirstName_LastName_Date.pdf",
+                            "maxlength": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_60621f39e69ae",
+                    "label": "Pricing Solutions ROI Calculator",
+                    "name": "vend_roi",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_60621f39e69af",
+                            "label": "Wordpress Form ID",
+                            "name": "form_id",
+                            "type": "number",
+                            "instructions": "Wordpress Forms Form ID to display on the page",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_60624fef6d5e8",
+                            "label": "Marketo Form ID",
+                            "name": "marketo_id",
+                            "type": "text",
+                            "instructions": "Form to pass info to from Wordpress to Marketo",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "mktoForm_",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_60621f39e69b0",
+                            "label": "PDF Template URL",
+                            "name": "template_url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_60621f39e69b1",
+                            "label": "PDF Output Prefix",
+                            "name": "pdf_output_prefix",
+                            "type": "text",
+                            "instructions": "Use only letters, numbers, and underscore. No spaces allowed.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Vendavo_CPQ_Value_Assessment",
+                            "placeholder": "Vendavo_CPQ_Value_Assessment",
+                            "prepend": "",
+                            "append": "_FirstName_LastName_Date.pdf",
+                            "maxlength": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-website-calculators"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1617056605
+}

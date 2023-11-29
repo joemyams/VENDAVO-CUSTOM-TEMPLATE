@@ -1,0 +1,22 @@
+.block--header.is--layout-seven.partners-header {
+  .header__text, .header__subheadline {
+    width: 100%;
+    max-width: 100%;
+  }
+  .header__subheadline {
+    p {
+      font-size: 1.125rem;
+    }
+  }
+  &:after {
+    z-index: 4;
+  }
+}
+
+.block--header.partners-header {
+  @include lg-up {
+    .image img {
+      width: 100%;
+    }
+  }
+}

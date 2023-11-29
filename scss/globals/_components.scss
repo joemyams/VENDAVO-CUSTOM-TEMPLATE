@@ -1,0 +1,31 @@
+.tab-group {
+  width: auto;
+  margin-top: 2rem;
+  background-color: var(--ltGray);
+  border-radius: 100px;
+  padding: 1em 0.55em;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+}
+.tab-group a {
+  position: relative;
+  z-index: 1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 1.25rem;
+  margin-right: 1.25rem;
+  display: inline-block;
+}
+.tab-group a:last-child {
+  margin-right: 0;
+}
+.tab-group__indicator {
+  position: absolute;
+  top: 15%;
+  left: 0.65em;
+  width: 165px;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 100px;
+}

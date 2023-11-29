@@ -1,0 +1,43 @@
+.block__countdown {
+  max-width: 500px;
+  margin: 0 auto;
+  .time {
+    text-align: center;
+    flex: 0 0 20%;
+    max-width: 20%;
+    min-width: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid var(--gray-10);
+    &:last-child {
+      border-right: none;
+    }
+  }
+  .label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .timer {
+    font-size: 40px;
+    font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .block__countdown {
+    .time {
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .timer {
+      font-size: 24px;
+    }
+    .label {
+      font-size: 12px;
+    }
+  }
+
+}

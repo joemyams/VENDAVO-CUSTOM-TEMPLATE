@@ -1,0 +1,72 @@
+.podcast-slider__top {
+  padding-right: 6rem;
+}
+
+.is-text--white {
+  .slick-prev, .slick-next {
+    svg {
+      fill: #FFFFFF;
+    }
+  }
+}
+
+.podcast-slider__inner {
+  margin-left: -10px;
+  margin-right: -10px;
+  .slick-prev, .slick-next {
+    transform: none;
+    top: -5rem;
+    height: auto;
+    svg {
+      max-width: 1rem;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev {
+    left: auto;
+    right: 3.75rem;
+  }
+
+
+  .card-podcast-img {
+    padding-bottom: 144%;
+    .podcast-play__icon {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  .podcast-grid__kicker {
+    bottom: auto;
+    top: 1rem;
+  }
+  .item {
+    padding: 0 10px;
+  }
+  .slick-slide {
+    &:nth-child(4n+1) {
+      .podcast-grid__kicker {
+        background-color: var(--green-10);
+      }
+    }
+    &:nth-child(4n+2) {
+      .podcast-grid__kicker {
+        background-color: var(--purple-10);
+      }
+    }
+    &:nth-child(4n+3) {
+      .podcast-grid__kicker {
+        background-color: var(--teal-10);
+      }
+    }
+    &:nth-child(4n) {
+      .podcast-grid__kicker {
+        background-color: var(--yellow-20);
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.employee-spotlight__image {
+    position: relative;
+    width: 100%;
+}
+.block--employee-spotlight .cont {
+    align-items: center;
+}
+
+.block--employee-spotlight .half--image {
+    margin-bottom: 2rem;
+}
+
+@include md-up {
+    .block--employee-spotlight .half--text {
+        width: 60%;
+        padding-left: 4rem;
+    }
+    .block--employee-spotlight .half--image {
+        width: 40%;
+        margin-bottom: 0;
+    }
+}
